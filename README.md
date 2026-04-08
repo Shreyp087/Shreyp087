@@ -45,7 +45,7 @@
 ### 🏆 Hackathon Projects
 <p align="center">
   Check out my hackathon builds on DevPost <br/><br/>
-  <a href="https://devpost.com/Shreyp087" target="_blank">
+  <a href="https://devpost.com/s-patel2" target="_blank">
     <img src="https://img.shields.io/badge/Devpost-003E54?style=for-the-badge&logo=devpost&logoColor=58A6FF" alt="DevPost Profile" />
   </a>
 </p>
