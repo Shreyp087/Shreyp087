@@ -5,10 +5,14 @@
   <img src="https://raw.githubusercontent.com/Shreyp087/Shreyp087/main/docs/assets/hacker-banner.svg" alt="SHREY PATEL - Cybersecurity MS @ GWU | Engineer | Inventor | Hackathon Champion" width="100%"/>
 </a>
 
-<!-- TYPING ANIMATION -->
-<a href="https://git.io/typing-svg">
-  <img src="https://readme-typing-svg.herokuapp.com?font=JetBrains+Mono&weight=700&size=20&pause=1000&color=00FF41&background=0A0E14&center=true&vCenter=true&multiline=true&width=750&height=80&lines=🛡️+BisonHacks+2026+1st+Place+%7C+Prompt+Firewall+Next-Gen+CAPTCHA;🌿+Google+DevFest+DC+2025+Most+Innovative+%7C+EconoSense+Agent;🌾+George+Hacks+2025+1st+Place+%7C+RootSync+Agri-AI;🏛️+Granted+Patent+%23572350+%7C+Smart+Traffic+Management+System" alt="Typing SVG" />
-</a>
+<!-- TERMINAL WINDOW ANIMATION -->
+<div align="center">
+  <img src="https://raw.githubusercontent.com/Shreyp087/Shreyp087/main/docs/assets/terminal-header.svg" width="750" />
+  <br/>
+  <a href="https://git.io/typing-svg">
+    <img src="https://readme-typing-svg.herokuapp.com?font=JetBrains+Mono&weight=700&size=20&pause=1000&color=00FF41&background=0A0E14&center=true&vCenter=true&multiline=true&width=750&height=100&lines=🛡️+BisonHacks+2026+1st+Place+%7C+Prompt+Firewall+Next-Gen+CAPTCHA;🌿+Google+DevFest+DC+2025+Most+Innovative+%7C+EconoSense+Agent;🌾+George+Hacks+2025+1st+Place+%7C+RootSync+Agri-AI;🏛️+Granted+Patent+%23572350+%7C+Smart+Traffic+Management+System" alt="Typing SVG" />
+  </a>
+</div>
 
 <br/>
 
@@ -224,13 +228,8 @@ Authors: **Shrey Patel**, Harsh Oza, Yash Sharma, Tirth Patel, Smita Agrawal, Pa
 
 *"The best way to predict the future is to build it."*
 
-<<<<<<< HEAD
-[![Portfolio](https://img.shields.io/badge/Portfolio-shrey--portforlio.netlify.app-00f5ff?style=flat-square)](https://shrey-portforlio.netlify.app/)
-[![DevPost](https://img.shields.io/badge/DevPost-S.PATEL2-003E54?style=flat-square&logo=devpost)](https://devpost.com/s-patel2)
-=======
 [![Portfolio](https://img.shields.io/badge/Portfolio-shrey--portforlio.netlify.app-000000?style=flat-square&logoColor=00FF41)](https://shrey-portforlio.netlify.app/)
 [![DevPost](https://img.shields.io/badge/DevPost-S-PATEL2-003E54?style=flat-square&logo=devpost)](https://devpost.com/s-patel2)
->>>>>>> 6084d0c (fix: resolve broken typing svg and replace unreadable cyan with dark hacker green badges)
 [![Email](https://img.shields.io/badge/Email-s.patel2@gwu.edu-EA4335?style=flat-square&logo=gmail&logoColor=white)](mailto:s.patel2@gwu.edu)
 
 </div>
