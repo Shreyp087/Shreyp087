@@ -1,74 +1,135 @@
 <div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=58A6FF&height=250&section=header" alt="Hero Banner"/>
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=00f4fe&height=250&section=header&text=SHREYP087&fontSize=80&fontColor=0a0e14&animation=twinkling&desc=Level%2087%20Architect&descAlignY=72&descAlign=62" alt="Hero Banner"/>
 </div>
 
 <div align="center">
   <a href="https://git.io/typing-svg">
-    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=30&pause=1000&color=58A6FF&center=true&vCenter=true&width=600&lines=Hi+there,+I'm+Shrey...;Passionate+Software+Developer;Full-Stack+Engineer;Welcome+to+my+Profile!+🚀" alt="Typing SVG" />
+    <img src="https://readme-typing-svg.demolab.com?font=Space+Grotesk&weight=600&size=24&pause=1000&color=00f4fe&center=true&vCenter=true&width=600&lines=Engineer;Inventor;Builder;Bridging+Theory+and+Architecture;NEXUS+NODE+ACTIVE" alt="Typing SVG" />
   </a>
 </div>
 
 <p align="center">
-  Always eager to learn new technologies and collaborate on exciting projects!
-</p>
-
-### 🛠️ Tech Stack & Tools
-<p align="center">
-  <!-- Languages -->
-  <img src="https://img.shields.io/badge/Python-14354C?style=for-the-badge&logo=python&logoColor=58A6FF" alt="Python" />
-  <img src="https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white" alt="TypeScript" />
-  <img src="https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&logo=javascript&logoColor=F7DF1E" alt="JavaScript" />
-  <!-- Frameworks/Tech -->
-  <img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=58A6FF" alt="React" />
-  <img src="https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=next.js&logoColor=58A6FF" alt="Next.js" />
-  <img src="https://img.shields.io/badge/Node.js-43853D?style=for-the-badge&logo=node.js&logoColor=white" alt="Node.js" />
-  <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white" alt="Docker" />
-  <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" alt="Git" />
-</p>
-
-### 📊 GitHub Stats
-<p align="center">
-  <!-- Images allow natural wrapping on mobile for responsiveness -->
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Shreyp087&layout=compact&theme=tokyonight" alt="Top Languages" />
-  <img src="https://github-readme-stats.vercel.app/api?username=Shreyp087&show_icons=true&theme=tokyonight" alt="GitHub Stats" />
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=Shreyp087&theme=tokyonight" alt="GitHub Streak" />
-</p>
-
-### 🌟 Featured Projects
-
-- 📈 [**Forex-nt1**](https://github.com/Shreyp087/Forex-nt1) <br/>
-  Interactive dashboard for currency tracking and insights <br/>
-  <img src="https://img.shields.io/badge/HTML5-E34F26?style=flat&logo=html5&logoColor=white" alt="HTML" />
-<br/>
-
-- 🎓 [**LMS-Using-PHP-MySQL**](https://github.com/Shreyp087/LMS-Using-PHP-MySQL) <br/>
-  Comprehensive University Learning Management System <br/>
-  <img src="https://img.shields.io/badge/PHP-777BB4?style=flat&logo=php&logoColor=white" alt="PHP" />
-<br/>
-
-- 🧠 [**Suicidal-thought-prediction**](https://github.com/Shreyp087/Suicidal-thought-prediction) <br/>
-  Machine learning models for predicting risk patterns <br/>
-  <img src="https://img.shields.io/badge/Jupyter-F37626?style=flat&logo=jupyter&logoColor=white" alt="Jupyter" />
-<br/>
-
-- 🔐 [**Network-Penetration-Testing-tools**](https://github.com/Shreyp087/Network-Penetration-Testing-tools) <br/>
-  Custom security scripts and penetration testing utilities <br/>
-  <img src="https://img.shields.io/badge/Python-14354C?style=flat&logo=python&logoColor=white" alt="Python" />
-
-<br/>
-
-### 🏆 Hackathon Projects
-<p align="center">
-  Check out my hackathon builds on DevPost <br/><br/>
   <a href="https://devpost.com/s-patel2" target="_blank">
-    <img src="https://img.shields.io/badge/Devpost-003E54?style=for-the-badge&logo=devpost&logoColor=58A6FF" alt="DevPost Profile" />
+    <img src="https://img.shields.io/badge/Check_Out_My_Hackathons_on_Devpost-[_ACTIVE_]-00f4fe?style=for-the-badge&logo=devpost&logoColor=00f4fe&labelColor=0a0e14" alt="DevPost Profile" />
+  </a>
+</p>
+
+<p align="center">
+  <a href="https://Shreyp087.github.io/Shreyp087/" target="_blank">
+    <img src="https://img.shields.io/badge/View_Full_Portfolio_→-00f4fe?style=for-the-badge&labelColor=0a0e14" alt="View Full Portfolio" />
   </a>
 </p>
 
 ---
 
+## 📈 Intel Dashboard
+
 <p align="center">
-  <!-- Replace with your actual links -->
-  <a href="https://linkedin.com/in/YOUR_LINKEDIN"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
-  <a href="mailto:YOUR_EMAIL@example.com"><img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" /></a>
+  <img src="https://github-readme-stats.vercel.app/api?username=Shreyp087&show_icons=true&bg_color=0a0e14&title_color=d674ff&text_color=a8abb3&icon_color=00f4fe&border_color=00f4fe&hide_border=true" alt="GitHub Stats" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Shreyp087&layout=compact&bg_color=0a0e14&title_color=00f4fe&text_color=a8abb3&icon_color=d674ff&border_color=d674ff&hide_border=true" alt="Top Languages" />
+</p>
+<p align="center">
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=Shreyp087&background=0a0e14&ring=00f4fe&fire=d674ff&currStreakNum=f1f3fc&currStreakLabel=a8abb3&sideNums=f1f3fc&sideLabels=a8abb3&dates=a8abb3&hide_border=true" alt="GitHub Streak" />
+</p>
+<p align="center">
+  <img src="https://raw.githubusercontent.com/Shreyp087/Shreyp087/output/github-contribution-grid-snake-dark.svg" alt="GitHub Contribution Snake" width="100%" />
+</p>
+
+---
+
+## 🛠️ Projects Forge
+
+<table width="100%">
+  <tr>
+    <td width="33%" align="center" valign="top">
+      <h3>🛡️ AegisDesk</h3>
+      <p><i>Next-gen endpoint protection.</i></p>
+      <img src="https://img.shields.io/badge/Rust-[_Core_]-0a0e14?style=flat&logo=rust&logoColor=00f4fe&labelColor=151a21"/> <br/>
+      <img src="https://img.shields.io/badge/WASM-[_Web_]-0a0e14?style=flat&logo=webassembly&logoColor=00f4fe&labelColor=151a21"/>
+      <br/> <br/> <b><span style="color:#00f4fe">[ ACTIVE ]</span></b>
+    </td>
+    <td width="33%" align="center" valign="top">
+      <h3>🍃 EconoSense</h3>
+      <p><i>Resource optimization engine.</i></p>
+      <img src="https://img.shields.io/badge/Python-[_Logic_]-0a0e14?style=flat&logo=python&logoColor=00f4fe&labelColor=151a21"/> <br/>
+      <img src="https://img.shields.io/badge/ML-[_Predict_]-0a0e14?style=flat&logo=scikitlearn&logoColor=00f4fe&labelColor=151a21"/>
+      <br/> <br/> <b><span>[ BETA ]</span></b>
+    </td>
+    <td width="33%" align="center" valign="top">
+      <h3>🔮 SAGA</h3>
+      <p><i>Autonomous researcher swarm.</i></p>
+      <img src="https://img.shields.io/badge/GPT4-[_Brain_]-0a0e14?style=flat&logo=openai&logoColor=ff716c&labelColor=151a21"/> <br/>
+      <img src="https://img.shields.io/badge/Node.js-[_API_]-0a0e14?style=flat&logo=nodedotjs&logoColor=ff716c&labelColor=151a21"/>
+      <br/> <br/> <b><span style="color:#ff716c">[ ALPHA ]</span></b>
+    </td>
+  </tr>
+  <tr>
+    <td width="33%" align="center" valign="top">
+      <h3>📚 SysDesign Prep</h3>
+      <p><i>Distributed systems sandbox.</i></p>
+      <img src="https://img.shields.io/badge/Go-[_Backend_]-0a0e14?style=flat&logo=go&logoColor=37e5ff&labelColor=151a21"/> <br/>
+      <img src="https://img.shields.io/badge/K8s-[_Deploy_]-0a0e14?style=flat&logo=kubernetes&logoColor=37e5ff&labelColor=151a21"/>
+      <br/> <br/> <b><span style="color:#37e5ff">[ STABLE ]</span></b>
+    </td>
+    <td width="33%" align="center" valign="top">
+      <h3>🧠 DataSage</h3>
+      <p><i>Predictive intelligence dash.</i></p>
+      <img src="https://img.shields.io/badge/SQL-[_Data_]-0a0e14?style=flat&logo=postgresql&logoColor=00f4fe&labelColor=151a21"/> <br/>
+      <img src="https://img.shields.io/badge/Tableau-[_Viz_]-0a0e14?style=flat&logo=tableau&logoColor=00f4fe&labelColor=151a21"/>
+      <br/> <br/> <b><span style="color:#00f4fe">[ LIVE ]</span></b>
+    </td>
+    <td width="33%" align="center" valign="top">
+      <h3>💀 ShadowLedger</h3>
+      <p><i>Privacy-first distributed ledger.</i></p>
+      <img src="https://img.shields.io/badge/Solidity-[_Smart_]-0a0e14?style=flat&logo=solidity&logoColor=d674ff&labelColor=151a21"/> <br/>
+      <img src="https://img.shields.io/badge/ZKP-[_Auth_]-0a0e14?style=flat&logo=web3dotjs&logoColor=d674ff&labelColor=151a21"/>
+      <br/> <br/> <b><span style="color:#a8abb3">[ EXPERIMENTAL ]</span></b>
+    </td>
+  </tr>
+</table>
+
+---
+
+## 🏆 Assets & Logs
+
+<table width="100%">
+  <tr>
+    <td width="50%" valign="top">
+      <h3>🏅 Hackathon Log</h3>
+      <ul>
+        <li>
+          <b>EthGlobal Paris 2024</b> <br/>
+          <i>Winner - Best Decentralized Compute Layer</i> <br/>
+          <img src="https://img.shields.io/badge/WINNER-ff6b35?style=flat-square&logoColor=white&labelColor=0a0e14" />
+        </li>
+        <br/>
+        <li>
+          <b>Solana Hyperdrive</b> <br/>
+          <i>Finalist - Infrastructure Track</i> <br/>
+          <img src="https://img.shields.io/badge/FINALIST-ff6b35?style=flat-square&logoColor=white&labelColor=0a0e14" />
+        </li>
+      </ul>
+    </td>
+    <td width="50%" valign="top">
+      <h3>📜 Intellectual Assets</h3>
+      <ul>
+        <li>
+          <b>Distributed Neural Mesh</b> <br/>
+          <i>ID: US-2024-00192A</i> <br/>
+          <img src="https://img.shields.io/badge/PENDING-d674ff?style=flat-square&logoColor=white&labelColor=0a0e14" />
+        </li>
+        <br/>
+        <li>
+          <b>Edge-Cloud Synchronicity</b> <br/>
+          <i>ID: US-2024-00831B</i> <br/>
+          <img src="https://img.shields.io/badge/PENDING-d674ff?style=flat-square&logoColor=white&labelColor=0a0e14" />
+        </li>
+      </ul>
+    </td>
+  </tr>
+</table>
+
+<br/><br/>
+<p align="center">
+  <img src="https://img.shields.io/badge/SYSTEM::ENVIRONMENT-[_STABLE_]-00f4fe?style=for-the-badge&labelColor=0a0e14" />
 </p>

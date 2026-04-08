@@ -1,0 +1,533 @@
+<!DOCTYPE html>
+<html class="dark" lang="en">
+<head>
+    <meta charset="utf-8"/>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+    <title>SHREYP087 // Neon Protocol Profile</title>
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&family=Manrope:wght@300;400;500;600;700&display=swap" rel="stylesheet"/>
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&display=swap" rel="stylesheet"/>
+    <script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+    <script id="tailwind-config">
+        tailwind.config = {
+            darkMode: "class",
+            theme: {
+                extend: {
+                    colors: {
+                        background: "#0a0e14",
+                        error: "#ff716c",
+                        "error-container": "#9f0519",
+                        "error-dim": "#d7383b",
+                        "inverse-on-surface": "#51555c",
+                        "inverse-primary": "#006a6e",
+                        "inverse-surface": "#f8f9ff",
+                        "on-background": "#f1f3fc",
+                        "on-error": "#490006",
+                        "on-error-container": "#ffa8a3",
+                        "on-primary": "#006165",
+                        "on-primary-container": "#00575b",
+                        "on-primary-fixed": "#004346",
+                        "on-primary-fixed-variant": "#006266",
+                        "on-secondary": "#004d58",
+                        "on-secondary-container": "#e9fbff",
+                        "on-secondary-fixed": "#003a42",
+                        "on-secondary-fixed-variant": "#005965",
+                        "on-surface": "#f1f3fc",
+                        "on-surface-variant": "#a8abb3",
+                        "on-tertiary": "#390050",
+                        "on-tertiary-container": "#ffffff",
+                        "on-tertiary-fixed": "#2c003f",
+                        "on-tertiary-fixed-variant": "#600084",
+                        outline: "#72757d",
+                        "outline-variant": "#44484f",
+                        primary: "#a1faff",
+                        "primary-container": "#00f4fe",
+                        "primary-dim": "#00e5ee",
+                        "primary-fixed": "#00f4fe",
+                        "primary-fixed-dim": "#00e5ee",
+                        secondary: "#00e3fe",
+                        "secondary-container": "#006876",
+                        "secondary-dim": "#00d4ee",
+                        "secondary-fixed": "#37e5ff",
+                        "secondary-fixed-dim": "#00d7f1",
+                        surface: "#0a0e14",
+                        "surface-bright": "#262c36",
+                        "surface-container": "#151a21",
+                        "surface-container-high": "#1b2028",
+                        "surface-container-highest": "#20262f",
+                        "surface-container-low": "#0f141a",
+                        "surface-container-lowest": "#000000",
+                        "surface-dim": "#0a0e14",
+                        "surface-tint": "#a1faff",
+                        "surface-variant": "#20262f",
+                        tertiary: "#d674ff",
+                        "tertiary-container": "#bb00fd",
+                        "tertiary-dim": "#bb00fd",
+                        "tertiary-fixed": "#e092ff",
+                        "tertiary-fixed-dim": "#d97dff"
+                    },
+                    fontFamily: {
+                        headline: ["Space Grotesk"],
+                        body: ["Manrope"],
+                        label: ["Space Grotesk"]
+                    }
+                }
+            }
+        };
+    </script>
+    <style>
+        html { scroll-behavior: smooth; }
+        body { min-height: 100dvh; background-color: #0a0e14; color: #f1f3fc; }
+        .material-symbols-outlined { font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24; }
+        
+        /* Utility Classes */
+        .drop-shadow-glow { filter: drop-shadow(0 0 10px rgba(161, 250, 255, 0.6)); }
+        .text-glow { text-shadow: 0 0 15px rgba(0, 244, 254, 0.8); }
+        .glow-cyan { text-shadow: 0 0 8px rgba(0, 244, 254, 0.5); }
+        .beveled-glass { box-shadow: inset 0 1px 0 0 rgba(255, 255, 255, 0.1); }
+        
+        .glass-panel {
+            background: rgba(21, 26, 33, 0.6);
+            backdrop-filter: blur(20px);
+            border-top: 1px solid rgba(161, 250, 255, 0.15);
+            border-left: 1px solid rgba(161, 250, 255, 0.1);
+        }
+        .neo-border-glow { box-shadow: inset 0 0 15px rgba(0, 244, 254, 0.05), 0 0 20px rgba(0, 244, 254, 0.05); }
+
+        /* Custom Animations */
+        .floating-particle {
+            position: absolute;
+            border-radius: 50%;
+            pointer-events: none;
+            animation: float linear infinite;
+        }
+
+        @keyframes float {
+            0% { transform: translate(0, 0) scale(1); }
+            33% { transform: translate(30px, -50px) scale(1.2); }
+            66% { transform: translate(-20px, -80px) scale(0.9); }
+            100% { transform: translate(0, 0) scale(1); }
+        }
+
+        .bento-card {
+            transition: all 0.4s cubic-bezier(0.25, 1, 0.5, 1);
+        }
+        .bento-card:hover {
+            transform: translateY(-8px);
+            box-shadow: 0 20px 40px -10px rgba(0, 244, 254, 0.15);
+            border-color: rgba(0, 244, 254, 0.3);
+        }
+        @media (prefers-reduced-motion: reduce) {
+            html { scroll-behavior: auto; }
+            *, ::before, ::after {
+                animation-duration: 0.01ms !important;
+                animation-iteration-count: 1 !important;
+                transition-duration: 0.01ms !important;
+            }
+        }
+    </style>
+</head>
+<body class="bg-surface text-on-surface font-body overflow-x-hidden selection:bg-primary-container selection:text-on-primary-container">
+
+    <!-- Ambient Background Texture -->
+    <div class="fixed inset-0 z-0 pointer-events-none opacity-[0.03]" style="background-image: radial-gradient(#a1faff 1px, transparent 0); background-size: 40px 40px;"></div>
+
+    <!-- Top Navigation -->
+    <nav class="fixed top-0 w-full z-50 bg-[#0a0e14]/80 backdrop-blur-xl flex justify-between items-center px-6 py-4 border-b border-primary/10 shadow-[0_4px_30px_rgba(0,244,254,0.1)]">
+        <div class="flex items-center gap-3">
+            <span class="material-symbols-outlined text-[#a1faff] drop-shadow-glow" data-icon="terminal">terminal</span>
+            <h1 class="text-xl font-bold text-[#a1faff] drop-shadow-glow font-['Space_Grotesk'] uppercase tracking-widest">SHREYP087</h1>
+        </div>
+        <div class="flex items-center gap-6">
+            <nav class="hidden md:flex gap-4">
+                <a class="block p-3 text-[#a1faff] drop-shadow-glow font-['Space_Grotesk'] uppercase tracking-widest text-base hover:text-[#00f4fe] transition-colors duration-300" href="#hero">NEXUS</a>
+                <a class="block p-3 text-on-surface-variant font-['Space_Grotesk'] uppercase tracking-widest text-base hover:text-[#00f4fe] transition-colors duration-300" href="#projects">FORGE</a>
+                <a class="block p-3 text-on-surface-variant font-['Space_Grotesk'] uppercase tracking-widest text-base hover:text-[#00f4fe] transition-colors duration-300" href="#stats">INTEL</a>
+            </nav>
+        </div>
+    </nav>
+
+    <!-- SECTION 1: HERO -->
+    <section id="hero" class="relative min-h-screen pt-24 pb-32 flex flex-col items-center justify-center">
+        <div class="absolute inset-0 z-0">
+            <div class="absolute top-1/4 -left-20 w-96 h-96 bg-primary/10 rounded-full blur-[120px]"></div>
+            <div class="absolute bottom-1/4 -right-20 w-96 h-96 bg-tertiary/10 rounded-full blur-[120px]"></div>
+        </div>
+
+        <!-- Floating Particles Animated via CSS -->
+        <div class="floating-particle bg-primary/60 w-2 h-2 top-[20%] left-[15%] blur-[1px]" style="animation-duration: 8s; animation-delay: 0s;"></div>
+        <div class="floating-particle bg-primary-container/50 w-3 h-3 top-[60%] right-[10%] blur-[2px]" style="animation-duration: 12s; animation-delay: 2s;"></div>
+        <div class="floating-particle bg-tertiary/60 w-1.5 h-1.5 bottom-[20%] left-[30%] blur-[1px]" style="animation-duration: 10s; animation-delay: 4s;"></div>
+        <div class="floating-particle bg-secondary/40 w-4 h-4 bottom-[40%] right-[20%] blur-[3px]" style="animation-duration: 15s; animation-delay: 1s;"></div>
+
+        <div class="relative z-10 container mx-auto px-6 flex flex-col items-center">
+            
+            <div class="relative mb-12 group">
+                <div class="absolute inset-0 bg-primary/20 rounded-full blur-2xl group-hover:bg-primary/30 transition-all duration-500"></div>
+                <div class="relative p-1 rounded-full bg-gradient-to-tr from-primary to-tertiary">
+                    <img alt="Shreyp087 Avatar" class="w-48 h-48 rounded-full object-cover grayscale brightness-125 contrast-125 border-4 border-surface shadow-[0_0_40px_rgba(0,244,254,0.3)]" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDRk7k59Kg6NInnSEJqkdWwrmCcIy86LhAn-NCAZD2nOIb3zHOEFPobO1QbLG7ls1yOXWdKAph8v7JRKaarE352dYGCLocqyKLAgOzrvGvyVsKZV77j2G9-7ODJGxqB7vo39ZLgSqBoMifRRfx5ei4oChTft43x6fNcCJQ2cymlFVqOvMZgQi7YJ-TPNpnIKsN9awx3TFVPrfF4G8tHGUMqM_3TFtC-kNtmsEjrTg7_4DMG25emXGYrZND6oR4lUJv3AMXAr-EtUIvH"/>
+                </div>
+                <div class="absolute -bottom-2 -right-2 bg-surface-container-high px-4 py-1.5 rounded-full border border-outline-variant/30 flex items-center gap-2 shadow-xl backdrop-blur-md">
+                    <span class="w-2 h-2 rounded-full bg-primary animate-pulse shadow-[0_0_8px_#00f4fe]"></span>
+                    <span class="text-xs font-label font-bold tracking-widest text-on-surface uppercase">SYSTEM: ACTIVE</span>
+                </div>
+            </div>
+
+            <div class="text-center max-w-4xl space-y-4">
+                <div class="flex items-center justify-center gap-4 mb-2">
+                    <div class="h-[1px] w-12 bg-gradient-to-r from-transparent to-primary/50"></div>
+                    <span class="font-label text-xs tracking-[0.4em] text-primary-dim uppercase">Level 87 Architect</span>
+                    <div class="h-[1px] w-12 bg-gradient-to-l from-transparent to-primary/50"></div>
+                </div>
+                <h2 class="text-6xl md:text-8xl font-headline font-bold tracking-tighter text-on-surface text-glow">
+                        SHREYP<span class="text-primary">087</span>
+                </h2>
+                <p class="text-xl md:text-2xl font-body font-light text-on-surface-variant tracking-wide">
+                        Engineer <span class="text-primary/40 px-2">|</span> Inventor <span class="text-primary/40 px-2">|</span> Builder
+                </p>
+            </div>
+
+            <div class="mt-12 flex flex-wrap justify-center gap-6 items-center">
+                <a class="group relative px-8 py-3 bg-primary-container text-on-primary-container font-label font-bold rounded-xl overflow-hidden transition-all hover:shadow-[0_0_25px_rgba(0,244,254,0.5)] active:scale-95" href="https://devpost.com/s-patel2" target="_blank">
+                    <span class="relative z-10 flex items-center gap-2">
+                        <span class="material-symbols-outlined text-xl" data-icon="terminal">terminal</span>
+                        VIEW DEVPOST
+                    </span>
+                    <div class="absolute inset-0 bg-white/10 opacity-0 group-hover:opacity-100 transition-opacity"></div>
+                </a>
+            </div>
+
+            <div class="mt-20 w-full max-w-5xl grid grid-cols-1 md:grid-cols-12 gap-6">
+                <div class="md:col-span-8 bg-surface-container-high/60 backdrop-blur-2xl rounded-3xl p-8 border border-white/5 beveled-glass flex flex-col justify-between min-h-[250px]">
+                    <div>
+                        <div class="flex items-center gap-2 mb-6">
+                            <span class="w-8 h-[2px] bg-primary"></span>
+                            <h3 class="font-label text-sm tracking-widest text-primary uppercase">Core Competencies</h3>
+                        </div>
+                        <p class="text-2xl md:text-3xl font-body font-medium leading-tight text-on-surface">
+                            Bridging the gap between <span class="text-primary">computational theory</span> and <span class="text-tertiary">physical architecture</span>.
+                        </p>
+                    </div>
+                </div>
+                <div class="md:col-span-4 bg-surface-container-low/80 backdrop-blur-lg rounded-3xl p-6 border border-white/5 beveled-glass overflow-hidden relative flex flex-col justify-center">
+                    <div class="relative z-10">
+                        <span class="material-symbols-outlined text-tertiary mb-4" data-icon="grid_view">grid_view</span>
+                        <div class="text-xs font-label text-on-surface-variant uppercase mb-1">Nexus Node</div>
+                        <div class="text-xl font-headline font-bold text-on-surface tracking-widest">LOC: ACTIVE</div>
+                    </div>
+                    <div class="absolute -right-10 -bottom-10 opacity-10">
+                        <span class="material-symbols-outlined text-[120px]" data-icon="public">public</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECTION 2: PROJECTS FORGE -->
+    <section id="projects" class="relative min-h-screen py-24 flex items-center">
+        <div class="container mx-auto px-6 max-w-5xl relative z-10">
+            <header class="mb-12 text-center md:text-left">
+                <div class="flex items-center justify-center md:justify-start gap-2 mb-1">
+                    <span class="w-2 h-2 rounded-full bg-primary animate-pulse shadow-[0_0_8px_#a1faff]"></span>
+                    <span class="text-primary font-label text-xs tracking-widest uppercase font-bold">SYSTEM OVERVIEW</span>
+                </div>
+                <h2 class="text-4xl md:text-5xl font-headline font-bold tracking-tighter text-on-surface uppercase mb-3">Projects Forge</h2>
+                <p class="text-on-surface-variant text-sm md:text-base leading-relaxed max-w-lg mx-auto md:mx-0">Iterating through experimental protocols and high-frequency deployment kernels.</p>
+            </header>
+
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+                <!-- AegisDesk -->
+                <div class="glass-panel bento-card rounded-xl p-6 relative border border-primary/20 neo-border-glow lg:col-span-2">
+                    <div class="absolute top-4 right-4">
+                        <span class="px-2 py-1 bg-primary/10 text-primary font-label text-xs font-bold tracking-tighter rounded border border-primary/20">ACTIVE</span>
+                    </div>
+                    <div class="mb-4 inline-flex p-3 rounded-lg bg-primary/10 border border-primary/30">
+                        <span class="material-symbols-outlined text-primary text-3xl" style="font-variation-settings: 'FILL' 1;">security</span>
+                    </div>
+                    <h3 class="text-2xl font-headline font-bold text-on-surface mb-2">AegisDesk</h3>
+                    <p class="text-on-surface-variant text-base mb-6">Next-gen endpoint protection.</p>
+                    <div class="flex flex-wrap gap-2">
+                        <span class="px-3 py-1 bg-surface-container-highest text-primary font-label text-xs rounded flex items-center gap-1.5"><span class="w-1.5 h-1.5 rounded-full bg-primary"></span> Rust</span>
+                        <span class="px-3 py-1 bg-surface-container-highest text-primary font-label text-xs rounded flex items-center gap-1.5"><span class="w-1.5 h-1.5 rounded-full bg-primary"></span> WASM</span>
+                    </div>
+                </div>
+
+                <!-- EconoSense -->
+                <div class="glass-panel bento-card rounded-xl p-6 relative border border-secondary/10">
+                    <div class="absolute top-4 right-4"><span class="px-2 py-1 bg-tertiary/10 text-tertiary font-label text-xs font-bold rounded border border-tertiary/20">BETA</span></div>
+                    <div class="mb-4 inline-flex p-3 rounded-lg bg-surface-container-high"><span class="material-symbols-outlined text-secondary text-2xl">eco</span></div>
+                    <h3 class="text-xl font-headline font-bold text-on-surface mb-2">EconoSense</h3>
+                    <p class="text-on-surface-variant text-sm mb-6">Resource optimization engine.</p>
+                    <div class="flex flex-wrap gap-2">
+                        <span class="px-2 py-1 bg-surface-container-lowest text-on-surface-variant font-label text-xs rounded">Python</span>
+                        <span class="px-2 py-1 bg-surface-container-lowest text-on-surface-variant font-label text-xs rounded">ML</span>
+                    </div>
+                </div>
+
+                <!-- SAGA -->
+                <div class="glass-panel bento-card rounded-xl p-6 relative border border-error/10">
+                    <div class="absolute top-4 right-4"><span class="px-2 py-1 bg-error/10 text-error font-label text-xs font-bold rounded border border-error/20">ALPHA</span></div>
+                    <div class="mb-4 inline-flex p-3 rounded-lg bg-surface-container-high"><span class="material-symbols-outlined text-error-dim text-2xl">smart_toy</span></div>
+                    <h3 class="text-xl font-headline font-bold text-on-surface mb-2">SAGA</h3>
+                    <p class="text-on-surface-variant text-sm mb-6">Autonomous researcher swarm.</p>
+                    <div class="flex flex-wrap gap-2">
+                        <span class="px-2 py-1 bg-surface-container-lowest text-on-surface-variant font-label text-xs rounded">GPT-4</span>
+                        <span class="px-2 py-1 bg-surface-container-lowest text-on-surface-variant font-label text-xs rounded">Node.js</span>
+                    </div>
+                </div>
+
+                <!-- SysDesign Prep -->
+                <div class="glass-panel bento-card rounded-xl p-6 relative border border-secondary-fixed/10">
+                    <div class="absolute top-4 right-4"><span class="px-2 py-1 bg-secondary/10 text-secondary font-label text-xs font-bold rounded border border-secondary/20 uppercase">STABLE</span></div>
+                    <div class="flex flex-col mb-4">
+                        <div class="mb-4 inline-flex p-3 rounded-lg bg-surface-container-high w-max"><span class="material-symbols-outlined text-secondary text-2xl">hub</span></div>
+                        <h3 class="text-xl font-headline font-bold text-on-surface mb-2">SysDesign Prep</h3>
+                        <p class="text-on-surface-variant text-sm mb-4">Distributed systems sandbox.</p>
+                    </div>
+                    <div class="flex gap-2">
+                        <span class="px-2 py-1 bg-surface-container-lowest text-secondary-fixed font-label text-xs rounded">Go</span>
+                        <span class="px-2 py-1 bg-surface-container-lowest text-secondary-fixed font-label text-xs rounded">K8s</span>
+                    </div>
+                </div>
+
+                <!-- DataSage -->
+                <div class="glass-panel bento-card rounded-xl p-6 relative border border-primary/10">
+                    <div class="absolute top-4 right-4"><span class="px-2 py-1 bg-primary/10 text-primary font-label text-xs font-bold rounded border border-primary/20">LIVE</span></div>
+                    <div class="mb-4 inline-flex p-3 rounded-lg bg-surface-container-high"><span class="material-symbols-outlined text-primary text-2xl" style="font-variation-settings: 'FILL' 1;">query_stats</span></div>
+                    <h3 class="text-xl font-headline font-bold text-on-surface mb-2">DataSage</h3>
+                    <p class="text-on-surface-variant text-sm mb-6">Predictive intelligence dash.</p>
+                    <div class="flex flex-wrap gap-2">
+                        <span class="px-2 py-1 bg-surface-container-lowest text-on-surface-variant font-label text-xs rounded">SQL</span>
+                        <span class="px-2 py-1 bg-surface-container-lowest text-on-surface-variant font-label text-xs rounded">Tableau</span>
+                    </div>
+                </div>
+
+                <!-- ShadowLedger -->
+                <div class="glass-panel bento-card rounded-xl p-6 relative border border-outline/10">
+                    <div class="absolute top-4 right-4"><span class="px-2 py-1 bg-outline/10 text-outline font-label text-xs font-bold rounded border border-outline/20">EXP.</span></div>
+                    <div class="mb-4 inline-flex p-3 rounded-lg bg-surface-container-high"><span class="material-symbols-outlined text-tertiary-fixed-dim text-2xl">lan</span></div>
+                    <h3 class="text-xl font-headline font-bold text-on-surface mb-2">ShadowLedger</h3>
+                    <p class="text-on-surface-variant text-sm mb-6">Privacy-first distributed ledger.</p>
+                    <div class="flex flex-wrap gap-2">
+                        <span class="px-2 py-1 bg-surface-container-lowest text-on-surface-variant font-label text-xs rounded">Solidity</span>
+                        <span class="px-2 py-1 bg-surface-container-lowest text-on-surface-variant font-label text-xs rounded">ZKP</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECTION 3: DASHBOARD / INTEL -->
+    <section id="stats" class="relative min-h-screen py-24 flex items-center bg-surface-container-lowest/30">
+        <div class="container mx-auto px-6 max-w-6xl">
+            <div class="grid grid-cols-1 lg:grid-cols-2 gap-10">
+                
+                <!-- Left Panel: GitHub Statistics -->
+                <div class="space-y-6">
+                    <div class="flex items-center gap-2 mb-4">
+                        <span class="material-symbols-outlined text-primary">data_object</span>
+                        <h2 class="font-headline text-lg uppercase tracking-widest text-primary">GitHub_Registry</h2>
+                    </div>
+                    
+                    <div class="grid grid-cols-2 gap-4">
+                        <!-- Contributions (With JS Counter) -->
+                        <div class="col-span-2 glass-panel p-8 rounded-xl border border-white/5 beveled-glass relative overflow-hidden group">
+                            <div class="absolute -right-4 -top-4 w-32 h-32 bg-primary/10 rounded-full blur-3xl group-hover:bg-primary/20 transition-all"></div>
+                            <p class="font-label text-sm uppercase text-on-surface-variant mb-2">Contributions</p>
+                            <!-- data-target specifies the end value for the animation -->
+                            <h3 class="text-5xl font-headline font-bold text-primary glow-cyan counter-anim" data-target="1240">0</h3>
+                            <p class="text-xs text-primary/60 mt-4 font-mono tracking-tighter">TIMESTAMP: 2024.Q1_STABLE</p>
+                        </div>
+                        
+                        <!-- Streak -->
+                        <div class="glass-panel p-6 rounded-xl border border-white/5 beveled-glass">
+                            <p class="font-label text-xs uppercase text-on-surface-variant mb-2">Longest Streak</p>
+                            <div class="flex items-end gap-2">
+                                <span class="text-4xl font-headline font-bold text-on-surface counter-anim" data-target="45">0</span>
+                                <span class="text-xs text-on-surface-variant pb-1 font-bold">DAYS</span>
+                            </div>
+                        </div>
+                        
+                        <!-- Status -->
+                        <div class="glass-panel p-6 rounded-xl border border-white/5 beveled-glass flex flex-col justify-between">
+                            <p class="font-label text-xs uppercase text-on-surface-variant mb-2">Auth Status</p>
+                            <div class="flex items-center gap-3">
+                                <span class="w-3 h-3 rounded-full bg-primary animate-pulse shadow-[0_0_8px_#00f4fe]"></span>
+                                <span class="text-xs font-mono text-primary uppercase font-bold">Syncing...</span>
+                            </div>
+                        </div>
+                        
+                        <!-- Top Languages -->
+                        <div class="col-span-2 glass-panel p-8 rounded-xl border border-white/5 beveled-glass mt-2">
+                            <p class="font-label text-sm uppercase text-on-surface-variant mb-6">Top Languages</p>
+                            <div class="space-y-5">
+                                <div>
+                                    <div class="flex justify-between text-xs font-headline mb-2">
+                                        <span>TypeScript</span>
+                                        <span class="text-primary counter-anim-percent" data-target="64">0%</span>
+                                    </div>
+                                    <div class="w-full h-2 bg-surface-container-highest rounded-full overflow-hidden">
+                                        <!-- Width will animate -->
+                                        <div class="h-full bg-primary shadow-[0_0_8px_rgba(161,250,255,0.6)] progress-anim w-0 transition-all duration-1000 ease-out" data-width="64%"></div>
+                                    </div>
+                                </div>
+                                <div>
+                                    <div class="flex justify-between text-xs font-headline mb-2">
+                                        <span>Rust</span>
+                                        <span class="text-secondary counter-anim-percent" data-target="22">0%</span>
+                                    </div>
+                                    <div class="w-full h-2 bg-surface-container-highest rounded-full overflow-hidden">
+                                        <div class="h-full bg-secondary progress-anim w-0 transition-all duration-1000 ease-out delay-100" data-width="22%"></div>
+                                    </div>
+                                </div>
+                                <div>
+                                    <div class="flex justify-between text-xs font-headline mb-2">
+                                        <span>Go</span>
+                                        <span class="text-tertiary counter-anim-percent" data-target="14">0%</span>
+                                    </div>
+                                    <div class="w-full h-2 bg-surface-container-highest rounded-full overflow-hidden">
+                                        <div class="h-full bg-tertiary progress-anim w-0 transition-all duration-1000 ease-out delay-200" data-width="14%"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Right Panel: Patents & Awards -->
+                <div class="space-y-10 lg:pl-10">
+                    <div>
+                        <div class="flex items-center gap-2 mb-4">
+                            <span class="material-symbols-outlined text-tertiary">verified</span>
+                            <h2 class="font-headline text-lg uppercase tracking-widest text-tertiary">Intellectual_Assets</h2>
+                        </div>
+                        <div class="glass-panel rounded-xl border border-white/5 beveled-glass overflow-hidden shadow-2xl shadow-tertiary/5">
+                            <div class="bg-surface-container-highest/50 px-6 py-4 border-b border-white/5">
+                                <h4 class="text-xs font-headline uppercase tracking-widest text-on-surface-variant">Pending_Patents</h4>
+                            </div>
+                            <div class="divide-y divide-white/5">
+                                <div class="p-6 flex items-center justify-between hover:bg-white/5 transition-colors group cursor-pointer">
+                                    <div>
+                                        <h5 class="text-base font-headline text-on-surface group-hover:text-tertiary transition-colors">Distributed Neural Mesh</h5>
+                                        <p class="text-xs text-on-surface-variant mt-1">ID: US-2024-00192A</p>
+                                    </div>
+                                    <span class="text-xs px-2 py-1 bg-tertiary/10 text-tertiary rounded-md font-mono border border-tertiary/20">PENDING</span>
+                                </div>
+                                <div class="p-6 flex items-center justify-between hover:bg-white/5 transition-colors group cursor-pointer">
+                                    <div>
+                                        <h5 class="text-base font-headline text-on-surface group-hover:text-tertiary transition-colors">Edge-Cloud Synchronicity</h5>
+                                        <p class="text-xs text-on-surface-variant mt-1">ID: US-2024-00831B</p>
+                                    </div>
+                                    <span class="text-xs px-2 py-1 bg-tertiary/10 text-tertiary rounded-md font-mono border border-tertiary/20">PENDING</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div>
+                        <div class="flex items-center gap-2 mb-4">
+                            <span class="material-symbols-outlined text-[#FF6B35]">emoji_events</span>
+                            <h2 class="font-headline text-lg uppercase tracking-widest text-[#FF6B35]">Hackathon_Log</h2>
+                        </div>
+                        <div class="space-y-4">
+                            <div class="glass-panel p-6 rounded-xl border border-[#FF6B35]/20 flex items-center gap-6 relative group overflow-hidden bento-card cursor-pointer">
+                                <div class="absolute inset-0 bg-gradient-to-r from-[#FF6B35]/5 to-transparent opacity-0 group-hover:opacity-100 transition-opacity"></div>
+                                <div class="w-14 h-14 flex-shrink-0 bg-[#FF6B35]/20 rounded-xl flex items-center justify-center text-[#FF6B35]">
+                                    <span class="material-symbols-outlined text-3xl" style="font-variation-settings: 'FILL' 1;">workspace_premium</span>
+                                </div>
+                                <div class="flex-grow">
+                                    <div class="flex justify-between items-start mb-1">
+                                        <h5 class="text-base font-headline font-bold text-on-surface">EthGlobal Paris 2024</h5>
+                                        <span class="text-xs px-2 py-1 bg-[#FF6B35] text-white rounded font-black uppercase shadow-[0_0_10px_rgba(255,107,53,0.4)]">Winner</span>
+                                    </div>
+                                    <p class="text-sm text-on-surface-variant">First Place: Best Decentralized Compute Layer</p>
+                                </div>
+                            </div>
+                            <div class="glass-panel p-6 rounded-xl border border-[#FF6B35]/20 flex items-center gap-6 relative group overflow-hidden bento-card cursor-pointer">
+                                <div class="absolute inset-0 bg-gradient-to-r from-[#FF6B35]/5 to-transparent opacity-0 group-hover:opacity-100 transition-opacity"></div>
+                                <div class="w-14 h-14 flex-shrink-0 bg-[#FF6B35]/10 rounded-xl flex items-center justify-center text-[#FF6B35]/80">
+                                    <span class="material-symbols-outlined text-3xl" style="font-variation-settings: 'FILL' 1;">trophy</span>
+                                </div>
+                                <div class="flex-grow">
+                                    <div class="flex justify-between items-start mb-1">
+                                        <h5 class="text-base font-headline font-bold text-on-surface">Solana Hyperdrive</h5>
+                                        <span class="text-xs px-2 py-1 border border-[#FF6B35] text-[#FF6B35] rounded font-black uppercase">Finalist</span>
+                                    </div>
+                                    <p class="text-sm text-on-surface-variant">Top 10 Global: Infrastructure Track</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- JS for Counter Animations on Scroll -->
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            const counters = document.querySelectorAll('.counter-anim');
+            const percentCounters = document.querySelectorAll('.counter-anim-percent');
+            const progressBars = document.querySelectorAll('.progress-anim');
+            
+            let animated = false;
+
+            // Counter animation function
+            const animateCounter = (el, suffix = '') => {
+                const target = +el.getAttribute('data-target');
+                const duration = window.matchMedia('(prefers-reduced-motion: reduce)').matches ? 0 : 2000; // ms
+                
+                if (duration === 0) {
+                    el.innerText = target.toLocaleString() + suffix;
+                    return;
+                }
+
+                const start = 0;
+                let startTime = null;
+
+                const step = (currentTime) => {
+                    if (!startTime) startTime = currentTime;
+                    const progress = Math.min((currentTime - startTime) / duration, 1);
+                    // ease out cubic
+                    const easeOut = 1 - Math.pow(1 - progress, 3);
+                    
+                    const currentVal = Math.floor(easeOut * target);
+                    el.innerText = currentVal.toLocaleString() + suffix;
+
+                    if (progress < 1) {
+                        window.requestAnimationFrame(step);
+                    } else {
+                        el.innerText = target.toLocaleString() + suffix;
+                    }
+                };
+                window.requestAnimationFrame(step);
+            };
+
+            // Intersection Observer to run when dashboard is visible
+            const observer = new IntersectionObserver((entries) => {
+                const entry = entries[0];
+                if (entry.isIntersecting && !animated) {
+                    animated = true;
+                    // Run number counters
+                    counters.forEach(counter => animateCounter(counter));
+                    // Run percentage counters
+                    percentCounters.forEach(counter => animateCounter(counter, '%'));
+                    // Animate progress bars width
+                    progressBars.forEach(bar => {
+                        const targetWidth = bar.getAttribute('data-width');
+                        // Use inline timeout to let browser render first
+                        setTimeout(() => {
+                            bar.style.width = targetWidth;
+                        }, 100);
+                    });
+                }
+            }, { threshold: 0.2 });
+
+            const dashboardSection = document.getElementById('stats');
+            if(dashboardSection) {
+                observer.observe(dashboardSection);
+            }
+        });
+    </script>
+</body>
+</html>
