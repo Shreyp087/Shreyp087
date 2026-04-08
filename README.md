@@ -13,7 +13,7 @@
 <br/>
 
 [![Portfolio](https://img.shields.io/badge/Portfolio-Visit_Now-00f5ff?style=for-the-badge&logo=netlify&logoColor=black)](https://shrey-portforlio.netlify.app/)
-[![DevPost](https://img.shields.io/badge/DevPost-Hackathon_Builds-003E54?style=for-the-badge&logo=devpost&logoColor=white)](https://devpost.com/Shreyp087)
+[![DevPost](https://img.shields.io/badge/DevPost-Hackathon_Builds-003E54?style=for-the-badge&logo=devpost&logoColor=white)](https://devpost.com/s-patel2)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Shrey_Patel-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/patel-shrey-1b15bb208/)
 [![GitHub](https://img.shields.io/badge/GitHub-Shreyp087-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Shreyp087)
 
@@ -225,7 +225,7 @@ Authors: **Shrey Patel**, Harsh Oza, Yash Sharma, Tirth Patel, Smita Agrawal, Pa
 *"The best way to predict the future is to build it."*
 
 [![Portfolio](https://img.shields.io/badge/Portfolio-shrey--portforlio.netlify.app-00f5ff?style=flat-square)](https://shrey-portforlio.netlify.app/)
-[![DevPost](https://img.shields.io/badge/DevPost-S-PATEL2-003E54?style=flat-square&logo=devpost)](https://devpost.com/s-patel2)
+[![DevPost](https://img.shields.io/badge/DevPost-S.PATEL2-003E54?style=flat-square&logo=devpost)](https://devpost.com/s-patel2)
 [![Email](https://img.shields.io/badge/Email-s.patel2@gwu.edu-EA4335?style=flat-square&logo=gmail&logoColor=white)](mailto:s.patel2@gwu.edu)
 
 </div>
