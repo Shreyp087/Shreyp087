@@ -107,7 +107,7 @@ Authors: **Shrey Patel**, Harsh Oza, Yash Sharma, et al.
 <div align="center">
 <h2>🏆 HACKATHON CHAMPIONSHIP LOG</h2>
 
-[![DevPost](https://img.shields.io/badge/🚀_Full_Portfolio-DevPost-003E54?style=for-the-badge)](https://devpost.com/Shreyp087)
+[![DevPost](https://img.shields.io/badge/🚀_Full_Portfolio-DevPost-003E54?style=for-the-badge)](https://devpost.com/s-patel2)
 </div>
 
 <div align="center">
@@ -237,7 +237,7 @@ Authors: **Shrey Patel**, Harsh Oza, Yash Sharma, et al.
 *"The best way to predict the future is to build it."*
 
 [![Portfolio](https://img.shields.io/badge/Portfolio-shrey--portforlio.netlify.app-000000?style=flat-square&logoColor=00FF41)](https://shrey-portforlio.netlify.app/)
-[![DevPost](https://img.shields.io/badge/DevPost-S-PATEL2-003E54?style=flat-square&logo=devpost)](https://devpost.com/s-patel2)
+[![DevPost](https://img.shields.io/badge/DevPost-SPATEL2-003E54?style=flat-square&logo=devpost)](https://devpost.com/s-patel2)
 [![Email](https://img.shields.io/badge/Email-s.patel2@gwu.edu-EA4335?style=flat-square&logo=gmail&logoColor=white)](mailto:s.patel2@gwu.edu)
 
 </div>
