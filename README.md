@@ -28,44 +28,7 @@
 
 </div>
 
-<table align="center" width="100%">
-<tr>
-<td width="20%" valign="top" align="center">
-
-<br/><br/>
-
-**GOOGLE DEVELOPER ACHIEVEMENTS**
-
-<br/>
-
-<a href="https://g.dev/Shreyp087">
-  <img src="https://developers.google.com/static/profile/badges/community/innovators/cloud/getcertified2025/badge.svg" width="100" alt="Cloud Innovators 2025" />
-</a>
-
-<br/><br/>
-
-<img src="https://developers.google.com/static/profile/badges/community/innovators/cloud/2021_member/badge.svg" width="100" alt="Cloud Innovator" />
-
-<br/><br/>
-
-<img src="https://developers.google.com/static/profile/badges/skillsboost/earned-badge/badge.svg" width="100" alt="Google Skills" />
-
-<br/><br/>
-
-<img src="https://developers.google.com/static/profile/badges/community/gdg/GDGoC/member/badge.svg" width="100" alt="GDG Member" />
-
-<br/><br/>
-
-<img src="https://developers.google.com/static/profile/badges/playlists/android/android-basics-kotlin-pathway-one/badge.svg" width="100" alt="Kotlin Intro" />
-
-<br/><br/>
-
-<a href="https://g.dev/Shreyp087">
-  <img src="https://img.shields.io/badge/G.Dev-Profile-4285F4?style=flat-square&logo=google&logoColor=white" width="120" />
-</a>
-
-</td>
-<td width="80%" valign="top">
+---
 
 <div align="center"><h2>⚡ WHO AM I</h2></div>
 
@@ -88,18 +51,58 @@ const ShreyPatel = {
 };
 ```
 
+<!-- GOOGLE DEVELOPER ACHIEVEMENTS -->
+<div align="center">
+  <h3>🛡️ SYSTEM ACHIEVEMENTS: GOOGLE_CLOUD</h3>
+  <br/>
+  <a href="https://g.dev/Shreyp087">
+    <img src="https://developers.google.com/static/profile/badges/community/innovators/cloud/getcertified2025/badge.svg" width="90" alt="Cloud Innovators 2025" />
+    <img src="https://developers.google.com/static/profile/badges/community/innovators/cloud/2021_member/badge.svg" width="90" alt="Cloud Innovator" />
+    <img src="https://developers.google.com/static/profile/badges/skillsboost/earned-badge/badge.svg" width="90" alt="Google Skills" />
+    <img src="https://developers.google.com/static/profile/badges/community/gdg/GDGoC/member/badge.svg" width="90" alt="GDG Member" />
+    <img src="https://developers.google.com/static/profile/badges/playlists/android/android-basics-kotlin-pathway-one/badge.svg" width="90" alt="Kotlin Intro" />
+  </a>
+  <br/><br/>
+  <a href="https://g.dev/Shreyp087">
+    <img src="https://img.shields.io/badge/Verified_G.Dev_Profile-4285F4?style=for-the-badge&logo=google&logoColor=white" />
+  </a>
+</div>
+
 ---
 
 <!-- PATENTS & PUBLICATIONS -->
 <div align="center"><h2>🏛️ PATENTS & RESEARCH PUBLICATIONS</h2></div>
 
-**📜 Patent Portfolio**
-> **Smart Traffic Management (SDRS)** — Patent No: `572350 IN` (GRANTED ✅)
-> **Renewable Energy Dustbin** — App No: `202321051168 A` (PENDING 🟡)
+<table align="center" width="100%">
+<tr>
+<td width="50%" valign="top">
 
-**📚 Research Publications**
-> **[IoT-Enabled Smart Waste Management](https://link.springer.com/article/10.1007/s10163-025-02248-x)** — Springer (2025)
-> **[Renewable Energy IoT Waste Mgmt](https://www.sciencedirect.com/science/article/pii/S1877050925012554)** — Elsevier (2025)
+### 📜 Patent Portfolio
+
+**Patent 1 — GRANTED ✅**
+> **Smart Traffic Management (SDRS)**
+> - **Patent No:** `572350 IN`
+> - **Status:** GRANTED (Oct 21, 2025)
+
+**Patent 2 — PENDING 🟡**
+> **Renewable Energy-Based Smart Dustbin**
+> - **App No:** `202321051168 A`
+> - **Status:** PENDING
+
+</td>
+<td width="50%" valign="top">
+
+### 📚 Research Publications
+
+**[IoT-Enabled Smart Waste Management](https://link.springer.com/article/10.1007/s10163-025-02248-x)**
+*Springer — Journal of Material Cycles, Vol. 27(4)*
+Authors: Smita Agrawal, Parita Oza, **Shrey Patel**, et al.
+
+---
+
+**[Renewable Energy IoT Waste Mgmt](https://www.sciencedirect.com/science/article/pii/S1877050925012554)**
+*Elsevier Procedia Computer Science, Vol. 259(15)*
+Authors: **Shrey Patel**, Harsh Oza, Yash Sharma, et al.
 
 </td>
 </tr>
