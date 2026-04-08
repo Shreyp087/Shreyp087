@@ -1,4 +1,11 @@
 <svg width="850" height="400" viewBox="0 0 850 400" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <!-- Clipping window for the scrolling log -->
+    <clipPath id="log-window">
+      <rect x="0" y="0" width="800" height="100" />
+    </clipPath>
+  </defs>
+
   <style>
     @keyframes blink {
       0%, 100% { opacity: 1; }
@@ -8,20 +15,15 @@
       from { opacity: 0; transform: translateY(5px); }
       to { opacity: 1; transform: translateY(0); }
     }
-    @keyframes cycleText {
-      0%, 20% { opacity: 0; }
-      25%, 45% { opacity: 1; }
-      50%, 100% { opacity: 0; }
-    }
-    @keyframes cycleText2 {
-      0%, 45% { opacity: 0; }
-      50%, 70% { opacity: 1; }
-      75%, 100% { opacity: 0; }
-    }
-    @keyframes cycleText3 {
-      0%, 70% { opacity: 0; }
-      75%, 95% { opacity: 1; }
-      100% { opacity: 0; }
+    
+    /* Staggered vertical scroll for "tail -f" effect */
+    @keyframes staggeredScroll {
+      0%, 15% { transform: translateY(0); }
+      20%, 35% { transform: translateY(-30px); }
+      40%, 55% { transform: translateY(-60px); }
+      60%, 75% { transform: translateY(-90px); }
+      80%, 95% { transform: translateY(-120px); }
+      100% { transform: translateY(-150px); }
     }
 
     .bg { fill: #0a0e14; }
@@ -57,12 +59,15 @@
       filter: drop-shadow(0 0 5px rgba(0, 245, 255, 0.4));
     }
     
-    .achievement-cycle {
+    .log-text {
       font-family: 'Courier New', Courier, monospace;
-      font-size: 20px;
+      font-size: 18px;
       fill: #00FF41;
       font-weight: bold;
-      opacity: 0;
+    }
+
+    .scrolling-group {
+      animation: staggeredScroll 12s infinite cubic-bezier(0.45, 0.05, 0.55, 0.95);
     }
 
     /* Animation Timings */
@@ -70,10 +75,6 @@
     .line-2 { animation-delay: 0.8s; }
     .line-3 { animation-delay: 1.1s; }
     .line-4 { animation-delay: 1.4s; }
-
-    .cycle-1 { animation: cycleText 12s infinite; }
-    .cycle-2 { animation: cycleText2 12s infinite; }
-    .cycle-3 { animation: cycleText3 12s infinite; }
   </style>
 
   <!-- Background -->
@@ -95,16 +96,23 @@
     <text y="125" class="text-body line-4 text-green">> [SYSTEM] All protocols active. Ready for deployment.</text>
   </g>
 
-  <!-- Section 2: achievements -->
+  <!-- Section 2: achievements (Active Log) -->
   <g transform="translate(35, 260)">
-    <text class="text-cyan glow">root@gwu:~$ <tspan class="text-cmd">cat achievements.log</tspan></text>
+    <text class="text-cyan glow">root@gwu:~$ <tspan class="text-cmd">tail -f achievements.log</tspan></text>
     
-    <g transform="translate(20, 50)">
-      <text class="achievement-cycle cycle-1">🛡️ BisonHacks 2026: 1st Place (Graduate Team)</text>
-      <text class="achievement-cycle cycle-2">🌿 Google DevFest DC 2025: Most Innovative</text>
-      <text class="achievement-cycle cycle-3">📜 Patent #572350 IN: Smart Traffic Mgmt (GRANTED)</text>
+    <!-- Viewing Window for Logs -->
+    <g transform="translate(20, 30)" clip-path="url(#log-window)">
+      <g class="scrolling-group">
+        <text y="20" class="log-text">🛡️ BisonHacks 2026: 1st Place (Graduate Team)</text>
+        <text y="50" class="log-text">🌿 Google DevFest DC 2025: Most Innovative</text>
+        <text y="80" class="log-text">📜 Patent #572350 IN: Smart Traffic Mgmt (GRANTED)</text>
+        <text y="110" class="log-text">🌾 George Hacks 2025: 1st Place (Health / Environment)</text>
+        <text y="140" class="log-text">⚡ NCL CTF: Ranked 120th National</text>
+        
+        <!-- Repeat for seamless loop padding -->
+        <text y="170" class="log-text">🛡️ BisonHacks 2026: 1st Place (Graduate Team)</text>
+        <text y="200" class="log-text">🌿 Google DevFest DC 2025: Most Innovative</text>
+      </g>
     </g>
-    
-    <text y="90" class="text-body line-4" style="animation-delay: 2s;" fill="#51555c">-- end of log --</text>
   </g>
 </svg>
