@@ -2,7 +2,7 @@
 
 <!-- ARTISTIC DESIGN BANNER -->
 <a href="https://Shreyp087.github.io/Shreyp087/">
-  <img src="https://raw.githubusercontent.com/Shreyp087/Shreyp087/main/docs/assets/stitch-banner.png" alt="SHREY PATEL - Cybersecurity MS @ GWU | Engineer | Inventor | Hackathon Champion" width="100%"/>
+  <img src="https://raw.githubusercontent.com/Shreyp087/Shreyp087/main/docs/assets/hacker-banner.svg" alt="SHREY PATEL - Cybersecurity MS @ GWU | Engineer | Inventor | Hackathon Champion" width="100%"/>
 </a>
 
 <!-- TYPING ANIMATION -->

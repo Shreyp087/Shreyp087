@@ -1,0 +1,77 @@
+<svg width="850" height="250" viewBox="0 0 850 250" xmlns="http://www.w3.org/2000/svg">
+  <style>
+    @keyframes blink {
+      0%, 100% { opacity: 1; }
+      50% { opacity: 0; }
+    }
+    @keyframes type {
+      from { width: 0; }
+      to { width: 100%; }
+    }
+    @keyframes fadeIn {
+      from { opacity: 0; }
+      to { opacity: 1; }
+    }
+    .bg { fill: #0a0e14; }
+    .term-header { fill: #151a21; }
+    .text-title {
+      font-family: 'Courier New', Courier, monospace;
+      font-size: 50px;
+      font-weight: bold;
+      fill: #00f5ff; /* Cyan glow for futuristic hacker */
+    }
+    .text-cmd {
+      font-family: 'Courier New', Courier, monospace;
+      font-size: 50px;
+      fill: #a1faff;
+    }
+    .text-body {
+      font-family: 'Courier New', Courier, monospace;
+      font-size: 20px;
+      fill: #00e5ee;
+      opacity: 0;
+      animation: fadeIn 0.5s ease-out forwards;
+    }
+    .cursor {
+      display: inline-block;
+      fill: #00f5ff;
+      animation: blink 1s step-end infinite;
+    }
+    .glow {
+      filter: drop-shadow(0 0 8px rgba(0, 245, 255, 0.6));
+    }
+    
+    /* Animation Delays */
+    .delay-1 { animation-delay: 0.8s; }
+    .delay-2 { animation-delay: 1.6s; }
+    .delay-3 { animation-delay: 2.4s; }
+    .delay-4 { animation-delay: 3.2s; }
+  </style>
+
+  <!-- Background -->
+  <rect width="850" height="250" rx="8" class="bg" stroke="#00f5ff" stroke-width="2" stroke-opacity="0.3"/>
+  
+  <!-- Terminal Header Bar -->
+  <rect width="850" height="40" rx="8" class="term-header"/>
+  <!-- Mac/Ubuntu Window Buttons -->
+  <circle cx="25" cy="20" r="7" fill="#ff5f56" />
+  <circle cx="50" cy="20" r="7" fill="#ffbd2e" />
+  <circle cx="75" cy="20" r="7" fill="#27c93f" />
+  
+  <!-- Header Text -->
+  <text x="425" y="26" font-family="'Courier New', monospace" font-size="14" fill="#51555c" text-anchor="middle">root@shrey-patel:~</text>
+
+  <!-- Main Terminal Body -->
+  <g transform="translate(30, 90)">
+    <!-- Command Line -->
+    <text class="text-title glow">root@gwu:~$ <tspan class="text-cmd">whoami</tspan><tspan class="cursor">_</tspan></text>
+    
+    <!-- Outputs -->
+    <text y="45" class="text-body delay-1">> SHREY PATEL</text>
+    <text y="75" class="text-body delay-2">> Cybersecurity MS Candidate @ GWU</text>
+    <text y="105" class="text-body delay-3">> Engineer | Inventor | Hackathon Champion</text>
+    
+    <!-- Status -->
+    <text y="135" class="text-body delay-4" fill="#27c93f">> [200 OK] System online and ready.</text>
+  </g>
+</svg>
