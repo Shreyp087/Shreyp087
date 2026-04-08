@@ -225,7 +225,7 @@ Authors: **Shrey Patel**, Harsh Oza, Yash Sharma, Tirth Patel, Smita Agrawal, Pa
 *"The best way to predict the future is to build it."*
 
 [![Portfolio](https://img.shields.io/badge/Portfolio-shrey--portforlio.netlify.app-00f5ff?style=flat-square)](https://shrey-portforlio.netlify.app/)
-[![DevPost](https://img.shields.io/badge/DevPost-S.PATEL2-003E54?style=flat-square&logo=devpost)](https://devpost.com/s.patel2)
+[![DevPost](https://img.shields.io/badge/DevPost-S-PATEL2-003E54?style=flat-square&logo=devpost)](https://devpost.com/s-patel2)
 [![Email](https://img.shields.io/badge/Email-s.patel2@gwu.edu-EA4335?style=flat-square&logo=gmail&logoColor=white)](mailto:s.patel2@gwu.edu)
 
 </div>
