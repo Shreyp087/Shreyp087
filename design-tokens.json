@@ -1,0 +1,116 @@
+{
+  "designSystem": "Neon Protocol",
+  "colorPalette": {
+    "background": "#0a0e14",
+    "error": "#ff716c",
+    "error_container": "#9f0519",
+    "error_dim": "#d7383b",
+    "inverse_on_surface": "#51555c",
+    "inverse_primary": "#006a6e",
+    "inverse_surface": "#f8f9ff",
+    "on_background": "#f1f3fc",
+    "on_error": "#490006",
+    "on_error_container": "#ffa8a3",
+    "on_primary": "#006165",
+    "on_primary_container": "#00575b",
+    "on_primary_fixed": "#004346",
+    "on_primary_fixed_variant": "#006266",
+    "on_secondary": "#004d58",
+    "on_secondary_container": "#e9fbff",
+    "on_secondary_fixed": "#003a42",
+    "on_secondary_fixed_variant": "#005965",
+    "on_surface": "#f1f3fc",
+    "on_surface_variant": "#a8abb3",
+    "on_tertiary": "#390050",
+    "on_tertiary_container": "#ffffff",
+    "on_tertiary_fixed": "#2c003f",
+    "on_tertiary_fixed_variant": "#600084",
+    "outline": "#72757d",
+    "outline_variant": "#44484f",
+    "primary": "#a1faff",
+    "primary_container": "#00f4fe",
+    "primary_dim": "#00e5ee",
+    "primary_fixed": "#00f4fe",
+    "primary_fixed_dim": "#00e5ee",
+    "secondary": "#00e3fe",
+    "secondary_container": "#006876",
+    "secondary_dim": "#00d4ee",
+    "secondary_fixed": "#37e5ff",
+    "secondary_fixed_dim": "#00d7f1",
+    "surface": "#0a0e14",
+    "surface_bright": "#262c36",
+    "surface_container": "#151a21",
+    "surface_container_high": "#1b2028",
+    "surface_container_highest": "#20262f",
+    "surface_container_low": "#0f141a",
+    "surface_container_lowest": "#000000",
+    "surface_dim": "#0a0e14",
+    "surface_tint": "#a1faff",
+    "surface_variant": "#20262f",
+    "tertiary": "#d674ff",
+    "tertiary_container": "#bb00fd",
+    "tertiary_dim": "#bb00fd",
+    "tertiary_fixed": "#e092ff",
+    "tertiary_fixed_dim": "#d97dff"
+  },
+  "typographyScale": {
+    "displayFont": "SPACE_GROTESK",
+    "headlineFont": "SPACE_GROTESK",
+    "bodyFont": "MANROPE",
+    "labelFont": "SPACE_GROTESK",
+    "hierarchy": {
+      "display": "Large, aggressive, and wide. Use display-lg for the 'User Handle' or 'Primary Skill'.",
+      "headlineAndLabels": "Monolinear nature for technical metadata.",
+      "bodyAndTitles": "Editorial balance. Use body-lg for personal bios."
+    }
+  },
+  "spacingSystem": {
+    "spacingScale": 2
+  },
+  "componentTokens": {
+    "colorMode": "DARK",
+    "roundness": "ROUND_FOUR",
+    "surfaces": {
+      "glassLevel1": {
+        "background": "surface_variant",
+        "opacity": "40%-60%",
+        "backdropFilter": "blur(12px)",
+        "gradient": "linear (primary to secondary)"
+      },
+      "cards": {
+        "background": "surface_container_high",
+        "opacity": "70%",
+        "backdropFilter": "heavy blur",
+        "innerShadow": "1px top white at 10%"
+      }
+    },
+    "buttons": {
+      "primary": {
+        "fill": "primary_container",
+        "text": "on_primary",
+        "hover": "box-shadow: 0 0 20px primary"
+      },
+      "secondary": {
+        "fill": "surface_variant",
+        "transparency": "semi-transparent",
+        "border": "outline_variant at 15% opacity"
+      },
+      "tertiary": {
+        "fill": "transparent",
+        "text": "secondary",
+        "typography": "label-md all-caps"
+      }
+    },
+    "elevation": {
+      "ambientShadows": {
+        "blur": "40px",
+        "opacity": "8%",
+        "color": "#a1faff"
+      },
+      "ghostBorderFallback": {
+        "borderColor": "outline_variant",
+        "opacity": "15%"
+      }
+    }
+  }
+}
