@@ -1,7 +1,9 @@
 <div align="center">
 
-<!-- ANIMATED HEADER -->
-<img src="https://capsule-render.vercel.app/api?type=venom&color=0:0a0a0f,50:0d1b2a,100:1a0a2e&height=300&section=header&text=SHREY+PATEL&fontSize=80&fontColor=00f5ff&animation=fadeIn&fontAlignY=38&desc=Cybersecurity+MS+%40+GWU+%7C+Engineer+%7C+Inventor+%7C+Hackathon+Champion&descAlignY=60&descSize=17&descColor=a0aec0&stroke=00f5ff&strokeWidth=2" width="100%"/>
+<!-- ARTISTIC DESIGN BANNER -->
+<a href="https://Shreyp087.github.io/Shreyp087/">
+  <img src="https://raw.githubusercontent.com/Shreyp087/Shreyp087/main/docs/assets/stitch-banner.png" alt="SHREY PATEL - Cybersecurity MS @ GWU | Engineer | Inventor | Hackathon Champion" width="100%"/>
+</a>
 
 <!-- TYPING ANIMATION -->
 <a href="https://git.io/typing-svg">
