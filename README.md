@@ -1,10 +1,15 @@
 <div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=58A6FF&height=300&section=header&text=Hi%20there,%20I'm%20Shrey!&fontSize=50&fontAlignY=38&desc=Welcome%20to%20my%20GitHub%20Profile%20🚀&descAlignY=51&descAlign=62&fontColor=ffffff" alt="Hero Banner"/>
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=58A6FF&height=250&section=header" alt="Hero Banner"/>
 </div>
 
-<h2 align="center">👨‍💻 About Me</h2>
+<div align="center">
+  <a href="https://git.io/typing-svg">
+    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=30&pause=1000&color=58A6FF&center=true&vCenter=true&width=600&lines=Hi+there,+I'm+Shrey...;Passionate+Software+Developer;Full-Stack+Engineer;Welcome+to+my+Profile!+🚀" alt="Typing SVG" />
+  </a>
+</div>
+
 <p align="center">
-  Passionate software developer building innovative solutions. Always eager to learn new technologies and collaborate on exciting projects.
+  Always eager to learn new technologies and collaborate on exciting projects!
 </p>
 
 ### 🛠️ Tech Stack & Tools
@@ -22,20 +27,35 @@
 </p>
 
 ### 📊 GitHub Stats
-<div align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Shreyp087&layout=compact&theme=tokyonight" alt="Top Languages" width="32%" />
-  <img src="https://github-readme-stats.vercel.app/api?username=Shreyp087&show_icons=true&theme=tokyonight" alt="GitHub Stats" width="32%" />
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=Shreyp087&theme=tokyonight" alt="GitHub Streak" width="32%" />
-</div>
+<p align="center">
+  <!-- Images allow natural wrapping on mobile for responsiveness -->
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Shreyp087&layout=compact&theme=tokyonight" alt="Top Languages" />
+  <img src="https://github-readme-stats.vercel.app/api?username=Shreyp087&show_icons=true&theme=tokyonight" alt="GitHub Stats" />
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=Shreyp087&theme=tokyonight" alt="GitHub Streak" />
+</p>
 
 ### 🌟 Featured Projects
 
-| Project | Description | Primary Language |
-| :--- | :--- | :--- |
-| [**Forex-nt1**](https://github.com/Shreyp087/Forex-nt1) | Interactive dashboard for currency tracking and insights | <img src="https://img.shields.io/badge/HTML5-E34F26?style=flat&logo=html5&logoColor=white" alt="HTML" /> |
-| [**LMS-Using-PHP-MySQL**](https://github.com/Shreyp087/LMS-Using-PHP-MySQL) | Comprehensive University Learning Management System | <img src="https://img.shields.io/badge/PHP-777BB4?style=flat&logo=php&logoColor=white" alt="PHP" /> |
-| [**Suicidal-thought-prediction**](https://github.com/Shreyp087/Suicidal-thought-prediction) | Machine learning models for predicting risk patterns | <img src="https://img.shields.io/badge/Jupyter-F37626?style=flat&logo=jupyter&logoColor=white" alt="Jupyter" /> |
-| [**Network-Penetration-Testing-tools**](https://github.com/Shreyp087/Network-Penetration-Testing-tools) | Custom security scripts and penetration testing utilities | <img src="https://img.shields.io/badge/Python-14354C?style=flat&logo=python&logoColor=white" alt="Python" /> |
+- 📈 [**Forex-nt1**](https://github.com/Shreyp087/Forex-nt1) <br/>
+  Interactive dashboard for currency tracking and insights <br/>
+  <img src="https://img.shields.io/badge/HTML5-E34F26?style=flat&logo=html5&logoColor=white" alt="HTML" />
+<br/>
+
+- 🎓 [**LMS-Using-PHP-MySQL**](https://github.com/Shreyp087/LMS-Using-PHP-MySQL) <br/>
+  Comprehensive University Learning Management System <br/>
+  <img src="https://img.shields.io/badge/PHP-777BB4?style=flat&logo=php&logoColor=white" alt="PHP" />
+<br/>
+
+- 🧠 [**Suicidal-thought-prediction**](https://github.com/Shreyp087/Suicidal-thought-prediction) <br/>
+  Machine learning models for predicting risk patterns <br/>
+  <img src="https://img.shields.io/badge/Jupyter-F37626?style=flat&logo=jupyter&logoColor=white" alt="Jupyter" />
+<br/>
+
+- 🔐 [**Network-Penetration-Testing-tools**](https://github.com/Shreyp087/Network-Penetration-Testing-tools) <br/>
+  Custom security scripts and penetration testing utilities <br/>
+  <img src="https://img.shields.io/badge/Python-14354C?style=flat&logo=python&logoColor=white" alt="Python" />
+
+<br/>
 
 ### 🏆 Hackathon Projects
 <p align="center">
