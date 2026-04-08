@@ -1,77 +1,110 @@
-<svg width="850" height="250" viewBox="0 0 850 250" xmlns="http://www.w3.org/2000/svg">
+<svg width="850" height="400" viewBox="0 0 850 400" xmlns="http://www.w3.org/2000/svg">
   <style>
     @keyframes blink {
       0%, 100% { opacity: 1; }
       50% { opacity: 0; }
     }
-    @keyframes type {
-      from { width: 0; }
-      to { width: 100%; }
-    }
     @keyframes fadeIn {
-      from { opacity: 0; }
-      to { opacity: 1; }
+      from { opacity: 0; transform: translateY(5px); }
+      to { opacity: 1; transform: translateY(0); }
     }
+    @keyframes cycleText {
+      0%, 20% { opacity: 0; }
+      25%, 45% { opacity: 1; }
+      50%, 100% { opacity: 0; }
+    }
+    @keyframes cycleText2 {
+      0%, 45% { opacity: 0; }
+      50%, 70% { opacity: 1; }
+      75%, 100% { opacity: 0; }
+    }
+    @keyframes cycleText3 {
+      0%, 70% { opacity: 0; }
+      75%, 95% { opacity: 1; }
+      100% { opacity: 0; }
+    }
+
     .bg { fill: #0a0e14; }
     .term-header { fill: #151a21; }
-    .text-title {
+    .text-cyan {
       font-family: 'Courier New', Courier, monospace;
-      font-size: 50px;
+      font-size: 24px;
       font-weight: bold;
-      fill: #00f5ff; /* Cyan glow for futuristic hacker */
+      fill: #00f5ff;
     }
     .text-cmd {
       font-family: 'Courier New', Courier, monospace;
-      font-size: 50px;
+      font-size: 24px;
       fill: #a1faff;
     }
     .text-body {
       font-family: 'Courier New', Courier, monospace;
-      font-size: 20px;
+      font-size: 18px;
       fill: #00e5ee;
       opacity: 0;
-      animation: fadeIn 0.5s ease-out forwards;
+      animation: fadeIn 0.4s ease-out forwards;
+    }
+    .text-green {
+      font-family: 'Courier New', Courier, monospace;
+      font-size: 18px;
+      fill: #27c93f;
     }
     .cursor {
-      display: inline-block;
       fill: #00f5ff;
       animation: blink 1s step-end infinite;
     }
     .glow {
-      filter: drop-shadow(0 0 8px rgba(0, 245, 255, 0.6));
+      filter: drop-shadow(0 0 5px rgba(0, 245, 255, 0.4));
     }
     
-    /* Animation Delays */
-    .delay-1 { animation-delay: 0.8s; }
-    .delay-2 { animation-delay: 1.6s; }
-    .delay-3 { animation-delay: 2.4s; }
-    .delay-4 { animation-delay: 3.2s; }
+    .achievement-cycle {
+      font-family: 'Courier New', Courier, monospace;
+      font-size: 20px;
+      fill: #00FF41;
+      font-weight: bold;
+      opacity: 0;
+    }
+
+    /* Animation Timings */
+    .line-1 { animation-delay: 0.5s; }
+    .line-2 { animation-delay: 0.8s; }
+    .line-3 { animation-delay: 1.1s; }
+    .line-4 { animation-delay: 1.4s; }
+
+    .cycle-1 { animation: cycleText 12s infinite; }
+    .cycle-2 { animation: cycleText2 12s infinite; }
+    .cycle-3 { animation: cycleText3 12s infinite; }
   </style>
 
   <!-- Background -->
-  <rect width="850" height="250" rx="8" class="bg" stroke="#00f5ff" stroke-width="2" stroke-opacity="0.3"/>
+  <rect width="850" height="400" rx="10" class="bg" stroke="#00f5ff" stroke-width="2" stroke-opacity="0.3"/>
   
   <!-- Terminal Header Bar -->
-  <rect width="850" height="40" rx="8" class="term-header"/>
-  <!-- Mac/Ubuntu Window Buttons -->
-  <circle cx="25" cy="20" r="7" fill="#ff5f56" />
-  <circle cx="50" cy="20" r="7" fill="#ffbd2e" />
-  <circle cx="75" cy="20" r="7" fill="#27c93f" />
-  
-  <!-- Header Text -->
-  <text x="425" y="26" font-family="'Courier New', monospace" font-size="14" fill="#51555c" text-anchor="middle">root@shrey-patel:~</text>
+  <rect width="850" height="40" rx="10" class="term-header"/>
+  <circle cx="25" cy="20" r="6" fill="#ff5f56" />
+  <circle cx="45" cy="20" r="6" fill="#ffbd2e" />
+  <circle cx="65" cy="20" r="6" fill="#27c93f" />
+  <text x="425" y="25" font-family="monospace" font-size="12" fill="#51555c" text-anchor="middle">root@gwu:~/shrey-patel</text>
 
-  <!-- Main Terminal Body -->
-  <g transform="translate(30, 90)">
-    <!-- Command Line -->
-    <text class="text-title glow">root@gwu:~$ <tspan class="text-cmd">whoami</tspan><tspan class="cursor">_</tspan></text>
+  <!-- Section 1: whoami -->
+  <g transform="translate(35, 80)">
+    <text class="text-cyan glow">root@gwu:~$ <tspan class="text-cmd">whoami</tspan><tspan class="cursor">_</tspan></text>
+    <text y="35" class="text-body line-1">> SHREY PATEL</text>
+    <text y="65" class="text-body line-2">> Cybersecurity MS Candidate @ GWU</text>
+    <text y="95" class="text-body line-3">> Engineer | Inventor | Hackathon Champion</text>
+    <text y="125" class="text-body line-4 text-green">> [SYSTEM] All protocols active. Ready for deployment.</text>
+  </g>
+
+  <!-- Section 2: achievements -->
+  <g transform="translate(35, 260)">
+    <text class="text-cyan glow">root@gwu:~$ <tspan class="text-cmd">cat achievements.log</tspan></text>
     
-    <!-- Outputs -->
-    <text y="45" class="text-body delay-1">> SHREY PATEL</text>
-    <text y="75" class="text-body delay-2">> Cybersecurity MS Candidate @ GWU</text>
-    <text y="105" class="text-body delay-3">> Engineer | Inventor | Hackathon Champion</text>
+    <g transform="translate(20, 50)">
+      <text class="achievement-cycle cycle-1">🛡️ BisonHacks 2026: 1st Place (Graduate Team)</text>
+      <text class="achievement-cycle cycle-2">🌿 Google DevFest DC 2025: Most Innovative</text>
+      <text class="achievement-cycle cycle-3">📜 Patent #572350 IN: Smart Traffic Mgmt (GRANTED)</text>
+    </g>
     
-    <!-- Status -->
-    <text y="135" class="text-body delay-4" fill="#27c93f">> [200 OK] System online and ready.</text>
+    <text y="90" class="text-body line-4" style="animation-delay: 2s;" fill="#51555c">-- end of log --</text>
   </g>
 </svg>

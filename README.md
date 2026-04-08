@@ -5,14 +5,7 @@
   <img src="https://raw.githubusercontent.com/Shreyp087/Shreyp087/main/docs/assets/hacker-banner.svg" alt="SHREY PATEL - Cybersecurity MS @ GWU | Engineer | Inventor | Hackathon Champion" width="100%"/>
 </a>
 
-<!-- TERMINAL WINDOW ANIMATION -->
-<div align="center">
-  <img src="https://raw.githubusercontent.com/Shreyp087/Shreyp087/main/docs/assets/terminal-header.svg" width="750" />
-  <br/>
-  <a href="https://git.io/typing-svg">
-    <img src="https://readme-typing-svg.herokuapp.com?font=JetBrains+Mono&weight=700&size=20&pause=1000&color=00FF41&background=0A0E14&center=true&vCenter=true&multiline=true&width=750&height=100&lines=🛡️+BisonHacks+2026+1st+Place+%7C+Prompt+Firewall+Next-Gen+CAPTCHA;🌿+Google+DevFest+DC+2025+Most+Innovative+%7C+EconoSense+Agent;🌾+George+Hacks+2025+1st+Place+%7C+RootSync+Agri-AI;🏛️+Granted+Patent+%23572350+%7C+Smart+Traffic+Management+System" alt="Typing SVG" />
-  </a>
-</div>
+<br/>
 
 <br/>
 
