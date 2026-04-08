@@ -23,12 +23,9 @@
 
 ### 📊 GitHub Stats
 <div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=Shreyp087&show_icons=true&theme=dark&bg_color=0D1117&title_color=58A6FF&text_color=C9D1D9&icon_color=58A6FF&border_color=30363D" alt="GitHub Stats" width="48%" />
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=Shreyp087&theme=dark&background=0D1117&ring=58A6FF&fire=58A6FF&currStreakNum=C9D1D9&sideNums=C9D1D9&currStreakLabel=58A6FF&sideLabels=58A6FF&dates=C9D1D9&border=30363D" alt="GitHub Streak" width="48%" />
-</div>
-<br/>
-<div align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Shreyp087&layout=compact&theme=dark&bg_color=0D1117&title_color=58A6FF&text_color=C9D1D9&border_color=30363D" alt="Top Languages" width="50%" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Shreyp087&layout=compact&theme=tokyonight" alt="Top Languages" width="32%" />
+  <img src="https://github-readme-stats.vercel.app/api?username=Shreyp087&show_icons=true&theme=tokyonight" alt="GitHub Stats" width="32%" />
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=Shreyp087&theme=tokyonight" alt="GitHub Streak" width="32%" />
 </div>
 
 ### 🌟 Pinned Project Highlights
