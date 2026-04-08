@@ -28,7 +28,44 @@
 
 </div>
 
----
+<table align="center" width="100%">
+<tr>
+<td width="20%" valign="top" align="center">
+
+<br/><br/>
+
+**GOOGLE DEVELOPER ACHIEVEMENTS**
+
+<br/>
+
+<a href="https://g.dev/Shreyp087">
+  <img src="https://developers.google.com/static/profile/badges/community/innovators/cloud/getcertified2025/badge.svg" width="100" alt="Cloud Innovators 2025" />
+</a>
+
+<br/><br/>
+
+<img src="https://developers.google.com/static/profile/badges/community/innovators/cloud/2021_member/badge.svg" width="100" alt="Cloud Innovator" />
+
+<br/><br/>
+
+<img src="https://developers.google.com/static/profile/badges/skillsboost/earned-badge/badge.svg" width="100" alt="Google Skills" />
+
+<br/><br/>
+
+<img src="https://developers.google.com/static/profile/badges/community/gdg/GDGoC/member/badge.svg" width="100" alt="GDG Member" />
+
+<br/><br/>
+
+<img src="https://developers.google.com/static/profile/badges/playlists/android/android-basics-kotlin-pathway-one/badge.svg" width="100" alt="Kotlin Intro" />
+
+<br/><br/>
+
+<a href="https://g.dev/Shreyp087">
+  <img src="https://img.shields.io/badge/G.Dev-Profile-4285F4?style=flat-square&logo=google&logoColor=white" width="120" />
+</a>
+
+</td>
+<td width="80%" valign="top">
 
 <div align="center"><h2>⚡ WHO AM I</h2></div>
 
@@ -56,38 +93,13 @@ const ShreyPatel = {
 <!-- PATENTS & PUBLICATIONS -->
 <div align="center"><h2>🏛️ PATENTS & RESEARCH PUBLICATIONS</h2></div>
 
-<table align="center" width="100%">
-<tr>
-<td width="50%" valign="top">
+**📜 Patent Portfolio**
+> **Smart Traffic Management (SDRS)** — Patent No: `572350 IN` (GRANTED ✅)
+> **Renewable Energy Dustbin** — App No: `202321051168 A` (PENDING 🟡)
 
-### 📜 Patent Portfolio
-
-**Patent 1 — GRANTED ✅**
-> **Smart Traffic Management Using Sensor-Driven Red Signal Camera Capture System**
-> - **Patent No:** `572350 IN`
-> - **Issued:** October 21, 2025
-> - *Inventors: Dr. Smita Agrawal, Dr. Parita Oza, Dr. Sudeep Tanwar, Nishika Shah, Shrey Patel, Prerna Halari*
-
-**Patent 2 — PENDING 🟡**
-> **Renewable Energy-Based Smart Dustbin with Auto Cleaning Facility for Sensors & Solar Panels**
-> - **Application No:** `202321051168 A`
-> - **Filed:** July 29, 2023
-> - *Inventors: Dr. Smita Agrawal, Prof. Parita Oza, Dr. Sudeep Tanwar, Dr. Madhuri Bhavsar, Shrey Patel*
-
-</td>
-<td width="50%" valign="top">
-
-### 📚 Research Publications
-
-**[IoT-Enabled Smart Waste Management: Applications, Adoption Barriers & Mitigation Strategies in the Indian Scenario](https://link.springer.com/article/10.1007/s10163-025-02248-x)**
-*Springer — Journal of Material Cycles and Waste Management, Vol. 27(4), pp. 2099–2118*
-Authors: Smita Agrawal, Parita Oza, **Shrey Patel**, Harsh Oza, Yash Sharma, Tirth Patel
-
----
-
-**[IoT-Enabled Smart Waste Management Using Renewable Energy](https://www.sciencedirect.com/science/article/pii/S1877050925012554)**
-*Elsevier Procedia Computer Science, Vol. 259(15), pp. 1973–1982*
-Authors: **Shrey Patel**, Harsh Oza, Yash Sharma, Tirth Patel, Smita Agrawal, Parita Oza
+**📚 Research Publications**
+> **[IoT-Enabled Smart Waste Management](https://link.springer.com/article/10.1007/s10163-025-02248-x)** — Springer (2025)
+> **[Renewable Energy IoT Waste Mgmt](https://www.sciencedirect.com/science/article/pii/S1877050925012554)** — Elsevier (2025)
 
 </td>
 </tr>
