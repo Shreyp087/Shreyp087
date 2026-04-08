@@ -7,20 +7,20 @@
 
 <!-- TYPING ANIMATION -->
 <a href="https://git.io/typing-svg">
-  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=20&pause=1000&color=00F5FF&center=true&vCenter=true&multiline=true&width=750&height=80&lines=🛡️+BisonHacks+2026+1st+Place+%7C+Prompt+Firewall+Next-Gen+CAPTCHA;🌿+Google+DevFest+DC+2025+Most+Innovative+%7C+EconoSense+Agent;🌾+George+Hacks+2025+1st+Place+%7C+RootSync+Agri-AI;🏛️+Granted+Patent+%23572350+%7C+Smart+Traffic+Management+System" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.herokuapp.com?font=JetBrains+Mono&weight=700&size=20&pause=1000&color=00FF41&background=0A0E14&center=true&vCenter=true&multiline=true&width=750&height=80&lines=🛡️+BisonHacks+2026+1st+Place+%7C+Prompt+Firewall+Next-Gen+CAPTCHA;🌿+Google+DevFest+DC+2025+Most+Innovative+%7C+EconoSense+Agent;🌾+George+Hacks+2025+1st+Place+%7C+RootSync+Agri-AI;🏛️+Granted+Patent+%23572350+%7C+Smart+Traffic+Management+System" alt="Typing SVG" />
 </a>
 
 <br/>
 
-[![Portfolio](https://img.shields.io/badge/Portfolio-Visit_Now-00f5ff?style=for-the-badge&logo=netlify&logoColor=black)](https://shrey-portforlio.netlify.app/)
+[![Portfolio](https://img.shields.io/badge/Portfolio-Visit_Now-000000?style=for-the-badge&logo=netlify&logoColor=00FF41)](https://shrey-portforlio.netlify.app/)
 [![DevPost](https://img.shields.io/badge/DevPost-Hackathon_Builds-003E54?style=for-the-badge&logo=devpost&logoColor=white)](https://devpost.com/s-patel2)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Shrey_Patel-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/patel-shrey-1b15bb208/)
 [![GitHub](https://img.shields.io/badge/GitHub-Shreyp087-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Shreyp087)
 
 <br/>
 
-![Profile Views](https://komarev.com/ghpvc/?username=Shreyp087&label=Profile+Views&color=00f5ff&style=for-the-badge)
-![GitHub followers](https://img.shields.io/github/followers/Shreyp087?style=for-the-badge&color=00f5ff&labelColor=0d1b2a)
+![Profile Views](https://komarev.com/ghpvc/?username=Shreyp087&label=Profile+Views&color=00FF41&style=for-the-badge)
+![GitHub followers](https://img.shields.io/github/followers/Shreyp087?style=for-the-badge&color=000000&labelColor=151a21)
 
 </div>
 
@@ -122,9 +122,9 @@ Authors: **Shrey Patel**, Harsh Oza, Yash Sharma, Tirth Patel, Smita Agrawal, Pa
 
 | Project | Stack | Description | Link |
 |---------|-------|-------------|------|
-| 🛡️ **Aegis Desk** | ![Next.js](https://img.shields.io/badge/Next.js-black?style=flat&logo=next.js) ![TypeScript](https://img.shields.io/badge/TS-3178C6?style=flat&logo=typescript&logoColor=white) ![OpenAI](https://img.shields.io/badge/OpenAI-412991?style=flat&logo=openai&logoColor=white) | AGI-inspired autonomous agent — cross-domain reasoning, uncertainty tracking, Trust Ledger, real-time web intel | [![Live](https://img.shields.io/badge/Try_Now-00f5ff?style=flat)](https://aegis-desk-kappa.vercel.app/) |
-| 🌿 **EconoSense Agent** | ![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white) ![Google ADK](https://img.shields.io/badge/Google_ADK-4285F4?style=flat&logo=google&logoColor=white) ![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=flat&logo=streamlit&logoColor=white) | Predicts citizen reactions & economic impact of government policies via sentiment + financial modelling | [![Live](https://img.shields.io/badge/Try_Now-00f5ff?style=flat)](https://econosense-agent.lovable.app/) |
-| 🌾 **RootSync** | ![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white) ![TensorFlow](https://img.shields.io/badge/TF-FF6F00?style=flat&logo=tensorflow&logoColor=white) | AI chatbot + IoT soil sensors → real-time crop diagnostics and ML-driven rotation advice | [![Live](https://img.shields.io/badge/Try_Now-00f5ff?style=flat)](https://rootsync.netlify.app/) |
+| 🛡️ **Aegis Desk** | ![Next.js](https://img.shields.io/badge/Next.js-black?style=flat&logo=next.js) ![TypeScript](https://img.shields.io/badge/TS-3178C6?style=flat&logo=typescript&logoColor=white) ![OpenAI](https://img.shields.io/badge/OpenAI-412991?style=flat&logo=openai&logoColor=white) | AGI-inspired autonomous agent — cross-domain reasoning, uncertainty tracking, Trust Ledger, real-time web intel | [![Live](https://img.shields.io/badge/Try_Now-000000?style=flat-square&logoColor=00FF41)](https://aegis-desk-kappa.vercel.app/) |
+| 🌿 **EconoSense Agent** | ![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white) ![Google ADK](https://img.shields.io/badge/Google_ADK-4285F4?style=flat&logo=google&logoColor=white) ![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=flat&logo=streamlit&logoColor=white) | Predicts citizen reactions & economic impact of government policies via sentiment + financial modelling | [![Live](https://img.shields.io/badge/Try_Now-000000?style=flat-square&logoColor=00FF41)](https://econosense-agent.lovable.app/) |
+| 🌾 **RootSync** | ![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white) ![TensorFlow](https://img.shields.io/badge/TF-FF6F00?style=flat&logo=tensorflow&logoColor=white) | AI chatbot + IoT soil sensors → real-time crop diagnostics and ML-driven rotation advice | [![Live](https://img.shields.io/badge/Try_Now-000000?style=flat-square&logoColor=00FF41)](https://rootsync.netlify.app/) |
 | 🔐 **Prompt Firewall** | ![Chrome Ext](https://img.shields.io/badge/Manifest_V3-4285F4?style=flat&logo=googlechrome&logoColor=white) ![JS](https://img.shields.io/badge/JS-F7DF1E?style=flat&logo=javascript&logoColor=black) | Intercepts AI prompts at send-time, applies risk engine + rotating MFA for high-risk secrets | 🥇 BisonHacks 2026 |
 | 🧬 **ClinSight** | ![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white) ![Gemini](https://img.shields.io/badge/Gemini-8E75B2?style=flat&logo=google&logoColor=white) | Entropy-based CMS provider drift detection with ElevenLabs voice briefings | 🥈 PatriotHacks 2026 |
 | 💧 **Water Quality ML** | ![GEE](https://img.shields.io/badge/Google_Earth_Engine-4285F4?style=flat&logo=google&logoColor=white) ![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white) | 97% accurate water quality model via multi-satellite datasets — 40% reduction in manual analysis time | Binghamton Research |
@@ -186,14 +186,14 @@ Authors: **Shrey Patel**, Harsh Oza, Yash Sharma, Tirth Patel, Smita Agrawal, Pa
 
 <div align="center">
 
-<img height="180em" src="https://github-readme-stats.vercel.app/api?username=Shreyp087&show_icons=true&theme=midnight-purple&include_all_commits=true&count_private=true&hide_border=true&bg_color=0d1117&title_color=00f5ff&icon_color=00f5ff&text_color=a0aec0"/>
-<img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Shreyp087&layout=compact&langs_count=8&theme=midnight-purple&hide_border=true&bg_color=0d1117&title_color=00f5ff&text_color=a0aec0"/>
+<img height="180em" src="https://github-readme-stats.vercel.app/api?username=Shreyp087&show_icons=true&theme=midnight-purple&include_all_commits=true&count_private=true&hide_border=true&bg_color=0d1117&title_color=00FF41&icon_color=00FF41&text_color=a0aec0"/>
+<img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Shreyp087&layout=compact&langs_count=8&theme=midnight-purple&hide_border=true&bg_color=0d1117&title_color=00FF41&text_color=a0aec0"/>
 
 </div>
 
 <div align="center">
 
-[![GitHub Streak](https://streak-stats.demolab.com?user=Shreyp087&theme=midnight-purple&hide_border=true&background=0d1117&stroke=00f5ff&ring=00f5ff&fire=ff6b35&currStreakLabel=00f5ff&sideLabels=a0aec0&dates=a0aec0)](https://git.io/streak-stats)
+[![GitHub Streak](https://streak-stats.demolab.com?user=Shreyp087&theme=midnight-purple&hide_border=true&background=0d1117&stroke=00FF41&ring=00FF41&fire=ff6b35&currStreakLabel=00FF41&sideLabels=a0aec0&dates=a0aec0)](https://git.io/streak-stats)
 
 </div>
 
@@ -212,7 +212,7 @@ Authors: **Shrey Patel**, Harsh Oza, Yash Sharma, Tirth Patel, Smita Agrawal, Pa
 
 <div align="center">
 
-[![Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=Shreyp087&bg_color=0d1117&color=00f5ff&line=00f5ff&point=ff6b35&area=true&hide_border=true)](https://github.com/ashutosh00710/github-readme-activity-graph)
+[![Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=Shreyp087&bg_color=0d1117&color=00FF41&line=00FF41&point=ff6b35&area=true&hide_border=true)](https://github.com/ashutosh00710/github-readme-activity-graph)
 
 </div>
 
@@ -220,12 +220,17 @@ Authors: **Shrey Patel**, Harsh Oza, Yash Sharma, Tirth Patel, Smita Agrawal, Pa
 
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:1a0a2e,50:0d1b2a,100:0a0a0f&height=120&section=footer&text=Let's+Build+Something+Wild&fontSize=20&fontColor=00f5ff&animation=fadeIn&fontAlignY=65" width="100%"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:1a0a2e,50:0d1b2a,100:0a0a0f&height=120&section=footer&text=Let's+Build+Something+Wild&fontSize=20&fontColor=00FF41&animation=fadeIn&fontAlignY=65" width="100%"/>
 
 *"The best way to predict the future is to build it."*
 
+<<<<<<< HEAD
 [![Portfolio](https://img.shields.io/badge/Portfolio-shrey--portforlio.netlify.app-00f5ff?style=flat-square)](https://shrey-portforlio.netlify.app/)
 [![DevPost](https://img.shields.io/badge/DevPost-S.PATEL2-003E54?style=flat-square&logo=devpost)](https://devpost.com/s-patel2)
+=======
+[![Portfolio](https://img.shields.io/badge/Portfolio-shrey--portforlio.netlify.app-000000?style=flat-square&logoColor=00FF41)](https://shrey-portforlio.netlify.app/)
+[![DevPost](https://img.shields.io/badge/DevPost-S-PATEL2-003E54?style=flat-square&logo=devpost)](https://devpost.com/s-patel2)
+>>>>>>> 6084d0c (fix: resolve broken typing svg and replace unreadable cyan with dark hacker green badges)
 [![Email](https://img.shields.io/badge/Email-s.patel2@gwu.edu-EA4335?style=flat-square&logo=gmail&logoColor=white)](mailto:s.patel2@gwu.edu)
 
 </div>
