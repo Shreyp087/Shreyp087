@@ -28,16 +28,14 @@
   <img src="https://github-readme-streak-stats.herokuapp.com/?user=Shreyp087&theme=tokyonight" alt="GitHub Streak" width="32%" />
 </div>
 
-### 🌟 Pinned Project Highlights
-*(Replace `YOUR_REPO_NAME` below with your actual repository names)*
-<div align="center">
-  <a href="https://github.com/Shreyp087/YOUR_REPO_NAME_1">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=Shreyp087&repo=YOUR_REPO_NAME_1&theme=dark&bg_color=0D1117&title_color=58A6FF&text_color=C9D1D9&icon_color=58A6FF&border_color=30363D" alt="Project 1" width="48%" />
-  </a>
-  <a href="https://github.com/Shreyp087/YOUR_REPO_NAME_2">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=Shreyp087&repo=YOUR_REPO_NAME_2&theme=dark&bg_color=0D1117&title_color=58A6FF&text_color=C9D1D9&icon_color=58A6FF&border_color=30363D" alt="Project 2" width="48%" />
-  </a>
-</div>
+### 🌟 Featured Projects
+
+| Project | Description | Primary Language |
+| :--- | :--- | :--- |
+| [**Forex-nt1**](https://github.com/Shreyp087/Forex-nt1) | Interactive dashboard for currency tracking and insights | <img src="https://img.shields.io/badge/HTML5-E34F26?style=flat&logo=html5&logoColor=white" alt="HTML" /> |
+| [**LMS-Using-PHP-MySQL**](https://github.com/Shreyp087/LMS-Using-PHP-MySQL) | Comprehensive University Learning Management System | <img src="https://img.shields.io/badge/PHP-777BB4?style=flat&logo=php&logoColor=white" alt="PHP" /> |
+| [**Suicidal-thought-prediction**](https://github.com/Shreyp087/Suicidal-thought-prediction) | Machine learning models for predicting risk patterns | <img src="https://img.shields.io/badge/Jupyter-F37626?style=flat&logo=jupyter&logoColor=white" alt="Jupyter" /> |
+| [**Network-Penetration-Testing-tools**](https://github.com/Shreyp087/Network-Penetration-Testing-tools) | Custom security scripts and penetration testing utilities | <img src="https://img.shields.io/badge/Python-14354C?style=flat&logo=python&logoColor=white" alt="Python" /> |
 
 ### 🏆 Hackathon Projects
 <p align="center">
