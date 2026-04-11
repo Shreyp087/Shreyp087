@@ -2,8 +2,13 @@
 
 <!-- ARTISTIC DESIGN BANNER -->
 <a href="https://Shreyp087.github.io/Shreyp087/">
-  <img src="https://raw.githubusercontent.com/Shreyp087/Shreyp087/main/docs/assets/hacker-banner.svg" alt="SHREY PATEL - Cybersecurity MS @ GWU | Engineer | Inventor | Hackathon Champion" width="100%"/>
+  <img src="https://raw.githubusercontent.com/Shreyp087/Shreyp087/main/docs/assets/agi-nexus-banner.png" alt="SHREY PATEL - Cybersecurity MS @ GWU | Engineer | Inventor | Hackathon Champion" width="100%" style="border-radius: 12px; box-shadow: 0 0 20px rgba(0,244,254,0.2);"/>
 </a>
+
+<br/>
+
+<h1 align="center" style="color: #a1faff;">SHREY PATEL</h1>
+<h4 align="center">Cybersecurity MS Candidate @ GWU | Engineer | Inventor | Hackathon Champion</h4>
 
 <br/>
 
