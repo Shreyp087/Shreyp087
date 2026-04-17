@@ -46,18 +46,22 @@ const ShreyPatel = {
 
 <!-- GOOGLE DEVELOPER ACHIEVEMENTS -->
 <div align="center">
-  <h3>🛡️ SYSTEM ACHIEVEMENTS: GOOGLE_CLOUD</h3>
+  <h3>🛡️ SYSTEM ACHIEVEMENTS: GOOGLE_DEVELOPER</h3>
   <br/>
   <a href="https://g.dev/Shreyp087">
-    <img src="https://developers.google.com/static/profile/badges/community/innovators/cloud/getcertified2025/badge.svg" width="90" alt="Cloud Innovators 2025" />
-    <img src="https://developers.google.com/static/profile/badges/community/innovators/cloud/2021_member/badge.svg" width="90" alt="Cloud Innovator" />
-    <img src="https://developers.google.com/static/profile/badges/skillsboost/earned-badge/badge.svg" width="90" alt="Google Skills" />
-    <img src="https://developers.google.com/static/profile/badges/community/gdg/GDGoC/member/badge.svg" width="90" alt="GDG Member" />
-    <img src="https://developers.google.com/static/profile/badges/playlists/android/android-basics-kotlin-pathway-one/badge.svg" width="90" alt="Kotlin Intro" />
+    <img src="https://img.shields.io/badge/Google_I%2FO_2026-Registered-4285F4?style=for-the-badge&logo=google&logoColor=white" alt="Google I/O 2026" />
+    <img src="https://img.shields.io/badge/Google_Cloud_Next_'26-Attendee-EA4335?style=for-the-badge&logo=googlecloud&logoColor=white" alt="Google Cloud Next 26" />
+    <img src="https://img.shields.io/badge/Gemini_Enterprise-Agent_Ready-8E75B2?style=for-the-badge&logo=googlegemini&logoColor=white" alt="Gemini Agent Ready" />
   </a>
   <br/><br/>
   <a href="https://g.dev/Shreyp087">
-    <img src="https://img.shields.io/badge/Verified_G.Dev_Profile-4285F4?style=for-the-badge&logo=google&logoColor=white" />
+    <img src="https://img.shields.io/badge/Cloud_Innovators_2025-Verified-FBBC05?style=for-the-badge&logo=googlecloud&logoColor=black" alt="Cloud Innovators" />
+    <img src="https://img.shields.io/badge/Android_Studio-Verified_User-3DDC84?style=for-the-badge&logo=androidstudio&logoColor=white" alt="Android Studio" />
+    <img src="https://img.shields.io/badge/GDG_On_Campus-GWU_Member-4285F4?style=for-the-badge&logo=google&logoColor=white" alt="GDG Member" />
+  </a>
+  <br/><br/>
+  <a href="https://g.dev/Shreyp087">
+    <img src="https://img.shields.io/badge/Verified_G.Dev_Profile-Profile_Link-181717?style=for-the-badge&logo=google&logoColor=white" />
   </a>
 </div>
 
