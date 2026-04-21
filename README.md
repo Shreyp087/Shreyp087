@@ -118,6 +118,7 @@ Authors: **Shrey Patel**, Harsh Oza, Yash Sharma, et al.
 
 | Medal | Event | Project | Award |
 |-------|-------|---------|-------|
+| 🏆 | **MLH Hackathon** — Apr 2026 | [**DonateSmart**](https://donate-smart.vercel.app) — Full-stack Next.js donor intake app with Gemini-powered image appraisal and an ElevenLabs voice assistant | **[MLH] Best Use of ElevenLabs** |
 | 🌟 | **Google Gemini Live Agent Challenge 2026** — Apr 2026 | **SAGA** — Multimodal AI Story Engine using 5 simultaneous Google models (Imagen 4, Veo 2, Lyria 2, Gemini Live) for real-time generative storytelling | **Creative Storyteller Candidate** |
 | 🥇 | **BisonHacks 2026** — Feb 2026 | **Prompt Firewall** — Manifest V3 Chrome extension: intercepts AI prompts, applies local risk engine (ALLOW / AUTO-REDACT / STEP-UP / BLOCK), Invisible CAPTCHA + rotating MFA for API keys & JWTs | **1st Place — Graduate Team Award** *(Ticketmaster Challenge)* |
 | 🥈 | **HackFax × PatriotHacks 2026** — Feb 2026 | **ClinSight** — Entropy-based drift engine detecting cognitive instability in CMS provider patterns (NPI × HCPCS × POS); voice briefings via ElevenLabs + Gemini exec summaries | **2nd Place CTF** |
@@ -139,6 +140,7 @@ Authors: **Shrey Patel**, Harsh Oza, Yash Sharma, et al.
 
 | Project | Stack | Description | Link |
 |---------|-------|-------------|------|
+| 🎁 **DonateSmart** | ![Next.js](https://img.shields.io/badge/Next.js-black?style=flat&logo=next.js) ![ElevenLabs](https://img.shields.io/badge/ElevenLabs-212121?style=flat&logo=elevenlabs&logoColor=white) ![Gemini](https://img.shields.io/badge/Gemini-8E75B2?style=flat&logo=google&logoColor=white) | Full-stack donor intake app with AI image appraisal & floating voice assistant | [![Live](https://img.shields.io/badge/Try_Now-000000?style=flat-square&logoColor=00FF41)](https://donate-smart.vercel.app) |
 | 🎭 **SAGA** | ![Gemini](https://img.shields.io/badge/Gemini_Live-8E75B2?style=flat&logo=google&logoColor=white) ![GCP](https://img.shields.io/badge/Vertex_AI-4285F4?style=flat&logo=googlecloud&logoColor=white) | Multimodal AI story engine using 5 simultaneous models (Imagen 4, Veo 2, Lyria 2) for real-time generation | Gemini Agent Challenge |
 | 🕵️ **ShadowLedger** | ![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white) ![OpenAI](https://img.shields.io/badge/GPT--4o-412991?style=flat&logo=openai&logoColor=white) | Continuous adversarial AI red-teaming platform with an immutable, cryptographically chained Trust Ledger | Enterprise SecTool |
 | 🛡️ **Aegis Desk** | ![Next.js](https://img.shields.io/badge/Next.js-black?style=flat&logo=next.js) ![TypeScript](https://img.shields.io/badge/TS-3178C6?style=flat&logo=typescript&logoColor=white) ![OpenAI](https://img.shields.io/badge/OpenAI-412991?style=flat&logo=openai&logoColor=white) | AGI-inspired autonomous agent — cross-domain reasoning, uncertainty tracking, Trust Ledger, real-time web intel | [![Live](https://img.shields.io/badge/Try_Now-000000?style=flat-square&logoColor=00FF41)](https://aegis-desk-kappa.vercel.app/) |
