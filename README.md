@@ -240,10 +240,10 @@ Authors: **Shrey Patel**, Harsh Oza, Yash Sharma, et al.
 ---
 
 <div align="center">
-
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:1a0a2e,50:0d1b2a,100:0a0a0f&height=120&section=footer&text=Let's+Build+Something+Wild&fontSize=20&fontColor=00FF41&animation=fadeIn&fontAlignY=65" width="100%"/>
-
-*"The best way to predict the future is to build it."*
+  <h2>🚀 LET'S BUILD SOMETHING WILD</h2>
+  <br/>
+  <i>"The best way to predict the future is to build it."</i>
+  <br/><br/>
 
 [![Portfolio](https://img.shields.io/badge/Portfolio-shrey--portforlio.netlify.app-000000?style=flat-square&logoColor=00FF41)](https://shrey-portforlio.netlify.app/)
 [![DevPost](https://img.shields.io/badge/DevPost-SPATEL2-003E54?style=flat-square&logo=devpost)](https://devpost.com/s-patel2)
